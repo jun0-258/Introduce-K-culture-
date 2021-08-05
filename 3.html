@@ -3,150 +3,258 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="image.css">
+
+        <style>
+          nav{
+    	font-size: 12pt;
+    	font-family: 'PT Sans', Arial, Sans-serif;
+    	position: relative;
+    }
+    nav ul{
+    	padding: 0;
+    	margin: 0 auto;
+    	width: auto;
+    }
+    nav li{
+    }
+    nav a{
+    	line-height: 50px;
+      height: 50px;
+    }
+    nav li a{
+    	box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    }
+    nav li:last-child a{
+    	border-right: 0;
+        }
+    nav a:hover, nav a:active{
+    }
+    nav a#pull{
+    	display: none;
+    }
+      html {
+      -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+      }
+
+      ul{
+        /*list-style-type: none;*/
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        text-align: center;
+      }
+      li{
+        /*position: relative;*/
+        display: inline-block;
+      }
+      li a{
+        color: #FFFFFF;
+        text-align: center;
+        padding: 14.5px 30px;
+        text-decoration: none;
+      }
+      li a:hover{
+        /*color: #597812;*/
+        color: #FFD400;
+        font-weight:normal;
+      }
+      .menu {
+       width: 5000px;
+       height: 50px;
+       text-align: center;
+       max-width: 100%;
+       background-position: center;
+       background-size: cover;
+       background-color: #333333;color: white;
+       position: absolute;z-index: 1;
+     }
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center; 
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+                
+            }
+            .footer1{
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+
+        </style>
     </head>
-    <body style="background-color: ivory;">
+    <body style="background-color: ivory; margin: 0px;">
 <header>
     <div style="text-align:center;">
      <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
     </div>
 </header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
+<div class="menu" style="position: sticky; top: 0; justify-content: center;">
+  <nav class="clearfix">  
+    <ul class="clearfix">
+        <li style="text-align: right;"><a href="1.html">건축물</a></li>
+        <li style="text-align: right;"><a href="2.html">음식</a></li>
+        <li style="text-align: right;"><a href="3.html">문화</a></li>
+        <li style="text-align: right;"><a href="4.html">축제</a></li>
+    </ul>
+  </nav>
+</div>
 
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
-
-<h2><P style="text-align:center;">한국의 문화
+<h2><P style="text-align:center; padding-top: 100px;">한국의 문화
     (Native culture of Korea)</P></h2>
 
     <main style="justify-content: center;">
         <div style="display: flex; justify-content: center;">
           <div>
                 <a href="3-1.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="정.jpg" width="240" alt="한국인의 정 (Korean emotional attachment)">
-                    </button>
+                        <img src="정.jpg" width="240" alt="한국인의 정 (Korean emotional attachment)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>한국인의 정</div> 
-                <div style="display: block;">(Korean emotional attachment)</div>
+                <div><strong><a href="3-1.html">한국인의 정</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-1.html">(Korean emotional attachment)</a></strong></div>
             </div>
           </div>
           <div>
             <a href="3-2.html">
-                <button type="button" style="margin: 6px;">
-                    <img src="빨리빨리 문화.jpg" width="240" alt="빨리빨리 문화 (ppalli ppalli culture)">
-                </button>
+                    <img src="빨리빨리 문화.jpg" width="240" alt="빨리빨리 문화 (ppalli ppalli culture)" style="margin: 6px;">
             </a>
             <div style="text-align:center;">
-            <div>빨리빨리 문화</div> 
-            <div style="display: block;">(ppalli ppalli culture)</div>
+            <div><strong><a href="3-2.html">빨리빨리 문화</a></strong></div> 
+            <div style="display: block;"><strong><a href="3-2.html">(ppalli ppalli culture)</a></strong></div>
         </div>
       </div>
       <div>
         <a href="3-3.html">
-            <button type="button" style="margin: 6px;">
-                <img src="케이팝.jpg" width="240" alt="케이팝 (K-pop)">
-            </button>
+                <img src="케이팝.jpg" width="240" alt="케이팝 (K-pop)" style="margin: 6px;">
         </a>
         <div style="text-align:center;">
-        <div>케이팝</div> 
-        <div style="display: block;">(K-pop)</div>
+        <div><strong><a href="3-3.html">케이팝</a></strong></div> 
+        <div style="display: block;"><strong><a href="3-3.html">K-pop</a></strong></div>
     </div>
   </div>
   <div>
     <a href="3-4.html">
-        <button type="button" style="margin: 6px;">
-            <img src="야자.png" width="240" alt="야간자율학습 (self study at school at night)">
-        </button>
+            <img src="야자.png" width="240" alt="야간자율학습 (self study at school at night)" style="margin: 6px;">
     </a>
     <div style="text-align:center;">
-    <div>야간자율학습</div> 
-    <div style="display: block;">(self study at school at night)</div>
+    <div><strong><a href="3-4.html">야간자율학습</a></strong></div> 
+    <div style="display: block;"><strong><a href="3-4.html">(self study at school at night)</a></strong></div>
   </div>
 </div>
 <div>
 <a href="3-5.html">
-    <button type="button" style="margin: 6px;">
-        <img src="밑반찬.jpg" width="240" alt="밑반찬 (Side dish)">
-    </button>
+        <img src="밑반찬.jpg" width="240" alt="밑반찬 (Side dish)" style="margin: 6px;">
 </a>
 <div style="text-align:center;">
-<div>밑반찬</div> 
-<div style="display: block;">(Side dish)</div>
+<div><strong><a href="3-5.html">밑반찬</a></strong></div> 
+<div style="display: block;"><strong><a href="3-5.html">(Side dish)</a></strong></div>
 </div>
 </div>
         </div><br><br>
         <div style="display: flex; justify-content: center;">
             <div>
                 <a href="3-6.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="수능 사진.jpg" width="240" alt="K-입시 (Korea College entrance examination)">
-                    </button>
+                        <img src="수능 사진.jpg" width="240" alt="K-입시 (Korea College entrance examination)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>K-입시</div> 
-                <div style="display: block;">(Korea College entrance examination)</div>
+                <div><strong><a href="3-6.html">K-입시</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-6.html">(College entrance examination)</a></strong></div>
               </div>
             </div>
             <div>
                 <a href="3-7.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="대중교통.jpg" width="240" alt="대중교통 문화 (Public transport culture)">
-                    </button>
+                        <img src="대중교통.jpg" width="240" alt="대중교통 문화 (Public transport culture)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>대중교통 문화</div> 
-                <div style="display: block;">(Public transport culture)</div>
+                <div><strong><a href="3-7.html">대중교통 문화</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-7.html">(Public transport culture)</a></strong></div>
               </div>
             </div>
             <div>
                 <a href="3-8.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="경찰.jpg" width="240" alt="한국의 치안 (Korean Safety)">
-                    </button>
+                        <img src="경찰.jpg" width="240" alt="한국의 치안 (Korean Safety)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>한국의 치안</div> 
-                <div style="display: block;">(Korean Safety)</div>
+                <div><strong><a href="3-8.html">한국의 치안</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-8.html">(Korean Safety)</a></strong></div>
               </div>
             </div>
             <div>
                 <a href="3-9.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="나이 문화.jpg" width="240" alt="한국의 나이 문화 (Age culture in Korea)">
-                    </button>
+                        <img src="나이 문화.jpg" width="240" alt="한국의 나이 문화 (Age culture in Korea)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>한국의 나이 문화</div> 
-                <div style="display: block;">(Age culture in Korea)</div>
+                <div><strong><a href="3-9.html">한국의 나이 문화</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-9.html">(Age culture in Korea)</a></strong></div>
               </div>
             </div>
             <div>
                 <a href="3-10.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="배달.jpg" width="240" alt="한국의 배달 문화 (Korean delivery culture)">
-                    </button>
+                        <img src="배달.jpg" width="240" alt="한국의 배달 문화 (Korean delivery culture)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>한국의 배달 문화</div> 
-                <div style="display: block;">(Korean delivery culture)</div>
+                <div><strong><a href="3-10.html">한국의 배달 문화</a></strong></div> 
+                <div style="display: block;"><strong><a href="3-10.html">(Korean delivery culture)</a></strong></div>
               </div>
             </div>
         </div>
-  </main>
+  </main><br><br><br><br><br><br><br><br><br>
+
+
+  <footer style="background-color: #333;">
+    <div style="width: 1200px; margin: 0 auto;">
+   <div class="footer1">
+    <div id="Introduce_K-culture">
+        <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+    </div>
+
+    <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+    &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+    &nbsp;&nbsp;-멘티: 배준영<br></p>
+    
+    <a href='5.html'><strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong></a><br><br>
+   </div>
+
+
+
+    <div class="footerLogo">
+        <h1><a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a></h1>
+        <address>서울시 강동구 천호대로219길 61<p> TEL.02-428-0733.<br> holol0711@naver.com</p></address>
+        <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+        <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+        <a href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w" target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+    </div>
+</div>
+<div class="copyright">
+    Copyright (C)2021 Sangil media. All Rights Reserved
+</div>
+</div>
+</div>
+
+</footer>
+
 
     </body>
 </html>

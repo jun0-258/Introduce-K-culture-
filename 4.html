@@ -3,150 +3,258 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="image.css">
+
+        <style>
+          nav{
+    	font-size: 12pt;
+    	font-family: 'PT Sans', Arial, Sans-serif;
+    	position: relative;
+    }
+    nav ul{
+    	padding: 0;
+    	margin: 0 auto;
+    	width: auto;
+    }
+    nav li{
+    }
+    nav a{
+    	line-height: 50px;
+      height: 50px;
+    }
+    nav li a{
+    	box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    }
+    nav li:last-child a{
+    	border-right: 0;
+        }
+    nav a:hover, nav a:active{
+    }
+    nav a#pull{
+    	display: none;
+    }
+      html {
+      -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+      }
+
+      ul{
+        /*list-style-type: none;*/
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        text-align: center;
+      }
+      li{
+        /*position: relative;*/
+        display: inline-block;
+      }
+      li a{
+        color: #FFFFFF;
+        text-align: center;
+        padding: 14.5px 30px;
+        text-decoration: none;
+      }
+      li a:hover{
+        /*color: #597812;*/
+        color: #FFD400;
+        font-weight:normal;
+      }
+      .menu {
+       width: 5000px;
+       height: 50px;
+       text-align: center;
+       max-width: 100%;
+       background-position: center;
+       background-size: cover;
+       background-color: #333333;color: white;
+       position: absolute;z-index: 1;
+     }
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center; 
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+                
+            }
+            .footer1{
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+       
+        </style>
     </head>
-    <body style="background-color: ivory;">
+    <body style="background-color: ivory; margin: 0px;">
 <header>
     <div style="text-align:center;">
      <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
     </div>
 </header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
+<div class="menu" style="position: sticky; top: 0; justify-content: center;">
+  <nav class="clearfix">  
+    <ul class="clearfix">
+        <li style="text-align: right;"><a href="1.html">건축물</a></li>
+        <li style="text-align: right;"><a href="2.html">음식</a></li>
+        <li style="text-align: right;"><a href="3.html">문화</a></li>
+        <li style="text-align: right;"><a href="4.html">축제</a></li>
+    </ul>
+  </nav>
+</div>
     
-    <h2><P style="text-align:center;">대한민국의 축제
+    <h2><P style="text-align:center; padding-top: 100px;">대한민국의 축제
         (Festivals in Korea)</P></h2>
 
         <main style="justify-content: center;">
             <div style="display: flex; justify-content: center;">
               <div>
                     <a href="4-1.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="보령머드축제.jpg" width="240" alt="보령 머드 축제 (Boryeong Mud festival)">
-                        </button>
+                            <img src="보령머드축제.jpg" width="240" alt="보령 머드 축제 (Boryeong Mud festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>보령 머드 축제</div> 
-                    <div style="display: block;">(Boryeong Mud festival)</div>
+                    <div><strong><a href="4-1.html">보령 머드 축제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-1.html">(Boryeong Mud festival)</a></strong></div>
                 </div>
               </div>
               <div>
                 <a href="4-2.html">
-                    <button type="button" style="margin: 6px;">
-                        <img src="대학축제.jpg" width="240" alt="대학축제 (University Festival)">
-                    </button>
+                        <img src="통영 한산대첩 축제.jpg" width="240" alt="통영 한산대첩 축제 (The Great Battle of Hansan Festival)" style="margin: 6px;">
                 </a>
                 <div style="text-align:center;">
-                <div>대학축제</div> 
-                <div style="display: block;">(University Festival)</div>
+                <div><strong><a href="4-2.html">통영 한산대첩 축제</a></strong></div> 
+                <div style="display: block;"><strong><a href="4-2.html">(Battle of Hansan Festival)</a></strong></div>
             </div>
           </div>
           <div>
             <a href="4-3.html">
-                <button type="button" style="margin: 6px;">
-                    <img src="통영 한산대첩 축제.jpg" width="240" alt="통영 한산대첩 축제 (The Great Battle of Hansan Festival)">
-                </button>
+                    <img src="대학축제.jpg" width="240" alt="대학축제 (University Festival)" style="margin: 6px;">
             </a>
             <div style="text-align:center;">
-            <div>통영 한산대첩 축제</div> 
-            <div style="display: block;">(The Great Battle of Hansan Festival)</div>
+            <div><strong><a href="4-3.html">대학축제</a></strong></div> 
+            <div style="display: block;"><strong><a href="4-3.html">(University Festival)</a></strong></div>
         </div>
       </div>
       <div>
         <a href="4-4.html">
-            <button type="button" style="margin: 6px;">
-                <img src="화천산천어축제.jpg" width="240" alt="화천산천어축제 (Mountain Trout Ice Festival)">
-            </button>
+                <img src="화천산천어축제.jpg" width="240" alt="화천산천어축제 (Mountain Trout Ice Festival)" style="margin: 6px;">
         </a>
         <div style="text-align:center;">
-        <div>화천산천어축제</div> 
-        <div style="display: block;">(Mountain Trout Ice Festival)</div>
+        <div><strong><a href="4-4.html">화천산천어축제</a></strong></div> 
+        <div style="display: block;"><strong><a href="4-4.html">(Mountain Trout Ice Festival)</a></strong></div>
       </div>
     </div>
   <div>
     <a href="4-5.html">
-        <button type="button" style="margin: 6px;">
-            <img src="청도 소싸움 축제.jpg" width="240" alt="청도 소싸움 축제 (Cheongdo bullfighting festival)">
-        </button>
+            <img src="청도 소싸움 축제.jpg" width="240" alt="청도 소싸움 축제 (Cheongdo bullfighting festival)" style="margin: 6px;">
     </a>
     <div style="text-align:center;">
-    <div>청도 소싸움 축제</div> 
-    <div style="display: block;">(Cheongdo bullfighting festival)</div>
+    <div><strong><a href="4-5.html">청도 소싸움 축제</a></strong></div> 
+    <div style="display: block;"><strong><a href="4-5.html">(Cheongdo bullfighting festival)</a></strong></div>
 </div>
 </div>
             </div><br><br>
             <div style="display: flex; justify-content: center;">
                 <div>
                     <a href="4-6.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="보성녹차축제.jpg" width="240" alt="보성 녹차 축제 (Boseong Greentea Festival)">
-                        </button>
+                            <img src="보성녹차축제.jpg" width="240" alt="보성 녹차 축제 (Boseong Greentea Festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>보성 녹차 축제</div> 
-                    <div style="display: block;">(Boseong Greentea Festival)</div>
+                    <div><strong><a href="4-6.html">보성 녹차 축제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-6.html">(Boseong Greentea Festival)</a></strong></div>
                   </div>
                 </div>
                 <div>
                     <a href="4-7.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="강릉단오제.jpg" width="240" alt="강릉단오제 (Gangneong Dano Festival)">
-                        </button>
+                            <img src="강릉단오제.jpg" width="240" alt="강릉단오제 (Gangneong Dano Festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>강릉단오제</div> 
-                    <div style="display: block;">(Gangneong Dano Festival)</div>
+                    <div><strong><a href="4-7.html">강릉단오제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-7.html">(Gangneong Dano Festival)</a></strong></div>
                   </div>
                 </div>
                 <div>
                     <a href="4-8.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="진도 신비의 바닷길 축제.jpg" width="240" alt="진도 신비의 바닷길 축제 (Jindo Sea Parting Festival)">
-                        </button>
+                            <img src="진도 신비의 바닷길 축제.jpg" width="240" alt="진도 신비의 바닷길 축제 (Jindo Sea Parting Festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>진도 신비의 바닷길 축제</div> 
-                    <div style="display: block;">(Jindo Sea Parting Festival)</div>
+                    <div><strong><a href="4-8.html">진도 신비의 바닷길 축제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-8.html">(Jindo Sea Parting Festival)</a></strong></div>
                   </div>
                 </div>
                 <div>
                     <a href="4-9.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="진주 유등 축제.jpg" width="240" alt="진주 유등 축제 (Jinju Lantern Festival)">
-                        </button>
+                            <img src="진주 유등 축제.jpg" width="240" alt="진주 유등 축제 (Jinju Lantern Festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>진주 유등 축제</div> 
-                    <div style="display: block;">(Jinju Lantern Festival)</div>
+                    <div><strong><a href="4-9.html">진주 유등 축제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-9.html">(Jinju Lantern Festival)</a></strong></div>
                   </div>
                 </div>
                 <div>
                     <a href="4-10.html">
-                        <button type="button" style="margin: 6px;">
-                            <img src="지평선 축제.jpg" width="240" alt="지평선 축제(horizon festival)">
-                        </button>
+                            <img src="지평선 축제.jpg" width="240" alt="지평선 축제(horizon festival)" style="margin: 6px;">
                     </a>
                     <div style="text-align:center;">
-                    <div>지평선 축제</div> 
-                    <div style="display: block;">(horizon festival)</div>
+                    <div><strong><a href="4-10.html">지평선 축제</a></strong></div> 
+                    <div style="display: block;"><strong><a href="4-10.html">(horizon festival)</a></strong></div>
                   </div>
                 </div>
             </div>
-      </main>
+      </main><br><br><br><br><br><br><br><br><br>
+
+
+      <footer style="background-color: #333;">
+        <div style="width: 1200px; margin: 0 auto;">
+       <div class="footer1">
+        <div id="Introduce_K-culture">
+            <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+        </div>
+    
+        <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+        &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+        &nbsp;&nbsp;-멘티: 배준영<br></p>
+        
+        <a href='5.html'><strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong></a><br><br>
+       </div>
+    
+    
+    
+        <div class="footerLogo">
+            <h1><a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a></h1>
+            <address>서울시 강동구 천호대로219길 61<p> TEL.02-428-0733.<br> holol0711@naver.com</p></address>
+            <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+            <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+            <a href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w" target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright (C)2021 Sangil media. All Rights Reserved
+    </div>
+    </div>
+    </div>
+    
+    </footer>
+
 
     </body>
 </html>

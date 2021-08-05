@@ -3,79 +3,207 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="image.css">
+
+        <style>
+            nav{
+    	font-size: 12pt;
+    	font-family: 'PT Sans', Arial, Sans-serif;
+    	position: relative;
+    }
+    nav ul{
+    	padding: 0;
+    	margin: 0 auto;
+    	width: auto;
+    }
+    nav li{
+    }
+    nav a{
+    	line-height: 50px;
+      height: 50px;
+    }
+    nav li a{
+    	box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    }
+    nav li:last-child a{
+    	border-right: 0;
+        }
+    nav a:hover, nav a:active{
+    }
+    nav a#pull{
+    	display: none;
+    }
+      html {
+      -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+      }
+
+      ul{
+        /*list-style-type: none;*/
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        text-align: center;
+      }
+      li{
+        /*position: relative;*/
+        display: inline-block;
+      }
+      li a{
+        color: #FFFFFF;
+        text-align: center;
+        padding: 14.5px 30px;
+        text-decoration: none;
+      }
+      li a:hover{
+        /*color: #597812;*/
+        color: #FFD400;
+        font-weight:normal;
+      }
+      .menu {
+       width: 5000px;
+       height: 50px;
+       text-align: center;
+       max-width: 100%;
+       background-position: center;
+       background-size: cover;
+       background-color: #333333;color: white;
+       position: absolute;z-index: 1;
+     }
+
+            a{
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center; 
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+                
+            }
+            .footer1{
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+
+        </style>
     </head>
-    <body style="background-color: ivory;">
+    <body style="background-color: ivory; margin: 0px;">
 <header>
     <div style="text-align:center;">
      <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
     </div>
 </header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
+<div class="menu" style="position: sticky; top: 0; justify-content: center;">
+    <nav class="clearfix">  
+      <ul class="clearfix">
+          <li style="text-align: right;"><a href="1.html">건축물</a></li>
+          <li style="text-align: right;"><a href="2.html">음식</a></li>
+          <li style="text-align: right;"><a href="3.html">문화</a></li>
+          <li style="text-align: right;"><a href="4.html">축제</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
-
-<h2><P style="text-align:center;">대한민국의 건축물
+<h2><P style="text-align:center; padding-top: 100px;">대한민국의 건축물
     (Architecture in Korea)</P></h2>
 
     <main style="justify-content: center;">
           <div style="display: flex; justify-content: center;">
             <div>
-                <a href="1-1.html"><button type="button" style="margin: 6px;"><img src="경복궁.jpg.jpg" width="240" alt="경복궁 (Gyeongbokgung)"></button></a>
-                <div style="text-align:center;">경복궁 (Gyeongbokgung)</div>
+                <a href="1-1.html"><img src="경복궁.jpg.jpg" width="240" alt="경복궁 (Gyeongbokgung)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-1.html">경복궁 (Gyeongbokgung)</a></strong></div>
             </div>
             <div>
-                <a href="1-2.html"><button type="button" style="margin: 6px;"><img src="석굴암.jpg.jpg" width="240" alt="석굴암 (Seokguram)"></button></a>
-                <div style="text-align:center;">석굴암 (Seokguram)</div>
+                <a href="1-2.html"><img src="석굴암.jpg.jpg" width="240" alt="석굴암 (Seokguram)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-2.html">석굴암 (Seokguram)</a></strong></div>
             </div>
             <div>
-                <a href="1-3.html"><button type="button" style="margin: 6px;"><img src="수원화성.jpg" width="240" alt="수원화성 (Suwon Hwaseong)"></button></a>
-                <div style="text-align:center;">수원화성 (Suwon Hwaseong)</div>
+                <a href="1-3.html"><img src="수원화성.jpg" width="240" alt="수원화성 (Suwon Hwaseong)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-3.html">수원화성 (Suwon Hwaseong)</a></strong></div>
             </div>
             <div>
-                <a href="1-4.html"><button type="button" style="margin: 6px;"><img src="선유도3.jpg" width="240" alt="한강 선유도공원 (sunyudo park)"></button></a>
-                <div style="text-align:center;">한강 선유도공원 (sunyudo park)</div>
+                <a href="1-4.html"><img src="선유도3.jpg" width="240" alt="한강 선유도공원 (sunyudo park)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-4.html">한강 선유도공원 (sunyudo park)</a></strong></div>
             </div>
             <div>
-                <a href="1-5.html"><button type="button" style="margin: 6px;"><img src="롯데월드타워.jpg" width="240" alt="롯데월드타워 (Lotte world Tower)"></button></a>
-                <div style="text-align:center;">롯데월드타워 (Lotte world Tower)</div>
+                <a href="1-5.html"><img src="롯데월드타워.jpg" width="240" alt="롯데월드타워 (Lotte world Tower)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-5.html">롯데월드타워 (Lotte world Tower)</a></strong></div>
             </div>
           </div><br><br>
           <div style="display: flex; justify-content: center;">
             <div>
-                <a href="1-6.html"><button type="button" style="margin: 6px;"><img src="남산서울타워.jpg" width="240" alt="남산서울타워 (namsan seoul tower)"></button></a>
-                <div style="text-align:center;">남산서울타워 (namsan seoul tower)</div>
+                <a href="1-6.html"><img src="남산서울타워.jpg" width="240" alt="남산서울타워 (namsan seoul tower)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-6.html">남산타워 (namsan tower)</a></strong></div>
             </div>
             <div>
-                <a href="1-7.html"><button type="button" style="margin: 6px;"><img src="인천국제공항.jpg" width="240" alt="인천국제공항 (Incheon Airport)"></button></a>
-                <div style="text-align:center;">인천국제공항 (Incheon Airport)</div>
+                <a href="1-7.html"><img src="인천국제공항.jpg" width="240" alt="인천국제공항 (Incheon Airport)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-7.html">인천국제공항 (Incheon Airport)</a></strong></div>
             </div>
             <div>
-                <a href="1-8.html"><button type="button" style="margin: 6px;"><img src="DDP.jpg" width="240" alt="동대문 디자인 플라자 (DDP)"></button></a>
-                <div style="text-align:center;">동대문 디자인 플라자 (DDP)</div>
+                <a href="1-8.html"><img src="DDP.jpg" width="240" alt="동대문 디자인 플라자 (DDP)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-8.html">동대문 디자인 플라자 (DDP)</a></strong></div>
             </div>
             <div>
-                <a href="1-9.html"><button type="button" style="margin: 6px;"><img src="63빌딩.jpg" width="240" alt="63빌딩 (63 Building)"></button></a>
-                <div style="text-align:center;">63빌딩 (63 Building)</div>
+                <a href="1-9.html"><img src="63빌딩.jpg" width="240" alt="63빌딩 (63 Building)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-9.html">빌딩 (63 Building)</a></strong></div>
             </div>
             <div>
-                <a href="1-10.html"><button type="button" style="margin: 6px;"><img src="청와대.png" width="240" alt="청와대 (Blue house)"></button></a>
-                <div style="text-align:center;">청와대 (Blue house)</div>
+                <a href="1-10.html"><img src="청와대.png" width="240" alt="청와대 (Blue house)" style="margin: 6px;"></a>
+                <div style="text-align:center;"><strong><a href="1-10.html">청와대 (Blue house)</a></strong></div>
             </div>
           </div>
-    </main>
+    </main><br><br><br><br><br><br><br><br><br>
+
+    <footer style="background-color: #333;">
+        <div style="width: 1200px; margin: 0 auto;">
+       <div class="footer1">
+        <div id="Introduce_K-culture">
+            <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+        </div>
+    
+        <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+        &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+        &nbsp;&nbsp;-멘티: 배준영<br></p>
+        
+        <a href='5.html'><strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong></a><br><br>
+       </div>
+    
+    
+    
+        <div class="footerLogo">
+            <h1><a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a></h1>
+            <address>서울시 강동구 천호대로219길 61<p> TEL.02-428-0733.<br> holol0711@naver.com</p></address>
+            <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+            <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+            <a href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w" target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright (C)2021 Sangil media. All Rights Reserved
+    </div>
+    </div>
+    </div>
+    
+    </footer>
+
+
     </body>
 </html>

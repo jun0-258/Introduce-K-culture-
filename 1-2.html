@@ -3,32 +3,646 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="main_article.css">
+
+        <style>
+            nav {
+                font-size: 12pt;
+                font-family: 'PT Sans', Arial, Sans-serif;
+                position: relative;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: auto;
+            }
+            nav li {}
+            nav a {
+                line-height: 50px;
+                height: 50px;
+            }
+            nav li a {
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            nav li:last-child a {
+                border-right: 0;
+            }
+            nav a:active,
+            nav a:hover {}
+            nav a#pull {
+                display: none;
+            }
+            html {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            ul {
+                /*list-style-type: none;*/
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+                text-align: center;
+            }
+            li {
+                /*position: relative;*/
+                display: inline-block;
+            }
+            li a {
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14.5px 30px;
+                text-decoration: none;
+            }
+            li a:hover {
+                /*color: #597812;*/
+                color: #FFD400;
+                font-weight: normal;
+            }
+            .menu {
+                width: 5000px;
+                height: 50px;
+                text-align: center;
+                max-width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-color: #333333;
+                color: white;
+                position: absolute;
+                z-index: 1;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center;
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+
+            }
+            .footer1 {
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+        </style>
+
     </head>
-    <body style="background-color: ivory;">
-<header>
-    <div style="text-align:center;">
-     <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
+    <body style="background-color: ivory; margin: 0px;" bottommargin="0">
+        <header>
+            <div style="text-align:center;">
+                <h1>
+                    <a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a>
+                </h1>
+            </div>
+        </header>
+        <div class="menu" style="position: sticky; top: 0; justify-content: center;">
+            <nav class="clearfix">
+                <ul class="clearfix">
+                    <li style="text-align: right;">
+                        <a href="1.html">건축물</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="2.html">음식</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="3.html">문화</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="4.html">축제</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div style="display: flex;">
+
+            <sidebar class="classy" style="padding-top: 200px; width: 380.6px;">
+
+                <div class="classy1" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="1.html">건축물</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="1-1.html" style="text-decoration: none;">&nbsp;&nbsp;경복궁 (Gyeongbokgung)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-2.html">&nbsp;&nbsp;석굴암 (Seokguram)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-3.html">&nbsp;&nbsp;수원화성 (Suwon Hwaseong)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-4.html">&nbsp;&nbsp;한강 선유도공원 (sunyudo park)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-5.html">&nbsp;&nbsp;롯데월드타워 (Lotte world Tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-6.html">&nbsp;&nbsp;남산서울타워 (namsan seoul tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-7.html">&nbsp;&nbsp;인천국제공항 (Incheon Airport)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-8.html">&nbsp;&nbsp;동대문 디자인 플라자 (DDP)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-9.html">&nbsp;&nbsp;63빌딩 (63 Building)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-10.html">&nbsp;&nbsp;청와대 (Blue house)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy2" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="2.html">음식</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="2-1.html" style="text-decoration: none;">&nbsp;&nbsp;김치 (Kimchi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-2.html">&nbsp;&nbsp;불고기 (bulgogi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-3.html">&nbsp;&nbsp;떡볶이 (Tteokbokki)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-4.html">&nbsp;&nbsp;라면 (Ramen)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-5.html">&nbsp;&nbsp;떡갈비 (tteokgalbi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-6.html">&nbsp;&nbsp;칼국수 (kalguksu)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-7.html">&nbsp;&nbsp;보쌈 (bossam)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-8.html">&nbsp;&nbsp;족발 (pigtrotters)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-9.html">&nbsp;&nbsp;식혜 (sikhye)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-10.html">&nbsp;&nbsp;비빔밥 (bibimbap)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy3" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="3.html">한국의 문화</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="3-1.html" style="text-decoration: none;">&nbsp;&nbsp;한국인의 정 (Korean emotional attachment)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-2.html">&nbsp;&nbsp;빨리빨리 문화 (ppalli ppalli culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-3.html">&nbsp;&nbsp;K-pop</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-4.html">&nbsp;&nbsp;야간자율학습 (self study at school at night)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-5.html">&nbsp;&nbsp;밑반찬 (Side dish)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-6.html">&nbsp;&nbsp;K-입시 (Korea College entrance examination)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-7.html">&nbsp;&nbsp;대중교통 문화 (Public transport culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-8.html">&nbsp;&nbsp;한국의 치안 (Korean Safety)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-9.html">&nbsp;&nbsp;한국의 나이 문화 (Age culture in Korea)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-10.html">&nbsp;&nbsp;한국의 배달 문화 (Korean delivery culture)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy4" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="4.html">축제</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="4-1.html" style="text-decoration: none;">&nbsp;&nbsp;보령 머드 축제 (Boryeong Mud festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-2.html">&nbsp;&nbsp;통영 한산대첩 축제 (The Great Battle of Hansan Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-3.html">&nbsp;&nbsp;대학축제 (University Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-4.html">&nbsp;&nbsp;화천산천어축제 (Mountain Trout Ice Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-5.html">&nbsp;&nbsp;청도 소싸움 축제 (Cheongdo bullfighting festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-6.html">&nbsp;&nbsp;보성 녹차 축제 (Boseong Greentea Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-7.html">&nbsp;&nbsp;강릉단오제 (Gangneong Dano Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-8.html">&nbsp;&nbsp;진도 신비의 바닷길 축제 (Jindo Sea Parting Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-9.html">&nbsp;&nbsp;진주 유등 축제 (Jinju Lantern Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-10.html">&nbsp;&nbsp;지평선 축제(horizon festival)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div style="padding-bottom: 150px">
+                    <hr>
+                </div>
+
+            </sidebar>
+
+            <main style="width: 100%; padding-top: 100px;">
+                <article>
+                    <h2 style="width: 623px; text-align: right;">
+                        <strong>석굴암 (Seokguram)</strong>
+                    </h2><br>
+
+                    <div style="display: flex;"><img src="석굴암.jpg.jpg" width="623" height="512">
+
+                        <table
+                            width="70%"
+                            style="background-color:#fff; width:100%; border:2px solid #315288; width:420px; margin-left: 45px;"
+                            data-dark-style="background-color:#1f2023;">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">
+                                        <div style="text-align: center;">
+
+                                            <img
+                                                src="정부상징.jpg"
+                                                width="21"
+                                                height="21"
+                                                style="position: relative; text-align: center;">
+
+                                            <strong>
+                                                <div style="color:#f39100; text-align: center;">대한민국 국보 제24호</div>
+                                            </strong>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <span class="wiki-color" style="color:#fff">
+                                                <span>
+                                                    <strong>경주 석굴암 석굴</strong>
+                                                </span><br>
+                                                <span>慶州 石窟庵 石窟</span></span></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color: #E2E2E2; text-align:center;">
+                                        <div>
+                                            <div style="margin:-5px -10px">
+                                                <div>
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12647.824579098717!2d126.97704099881818!3d37.57965036424969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2a3412c6c25%3A0xfd0d4f627a895214!2z7ISd6rW07JWU!5e0!3m2!1sko!2skr!4v1627153788640!5m2!1sko!2skr"
+                                                        width="412px"
+                                                        style="border:0;"
+                                                        allowfullscreen=""
+
+                                                        width="95%"
+                                                        height="220px"
+                                                        frameborder="0"
+
+                                                        loading="lazy"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; width:90px; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">소재지</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            경상북도 경주시 석굴로 238, 석굴암 (진현동)
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">분류</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>유적건조물 / 종교신앙 / 불교 / 불전</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">수량/면적</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>1기</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">지정연도</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>1962년 12월 20일</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">제작시기</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            통일신라, 751년
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">링크</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            <a
+                                                style="text-decoration: black;"
+                                                href="http://seokguram.org/"
+                                                target="_blank"
+                                                rel="nofollow noopener"
+                                                title="http://www.royalpalace.go.kr/">공식 홈페이지</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div><br><br><br><br><br><br>
+
+                    <h2 style="display: inline;">소개 :
+                    </h2>경상북도 경주시 진현동의 토함산 중턱에 있는 암자이다. 석굴은 남북국시대에 통일신라의 김대성이 만들었다. 한국을 대표하는 석굴사원으로
+                    불교 문화재의 걸작이자 국보 제 24호. 현대에 그 예술성과 가치를 인정받아서 토함산 아랫자락의 불국사와 함께 1995년 유네스코
+                    세계문화유산으로 지정되었다. 입장료는 2020년 성인 기준 6천 원으로 불국사와는 별도의 요금이다.
+
+                    <br><br>관람 시 실제 석굴 안으로는 들어갈 수 없으며 유리 차단막이 설치된 통로 밖에서 지나가면서 보는 것만 가능하다. 습기와 바람에
+                        따른 문화재 훼손을 막기 위해 내부에는 현대 과학의 산물인 공기 순환 설비가 돌아가고 있다. 다만, 매년 단 하루 부처님 오신 날에만 예외적으로
+                        차단막 안으로 들어가 옛날 신라인들이 했던 것처럼 본존불 주변을 한 바퀴 돌 수 있다. 이마저도 내부에선 사진 촬영은 금지된 상황이다.
+
+                    <br><br>통로에 '경내 설명 금지'라는 경고문이 붙어있는데, 좁은 석굴 안에 사람 몇명만 말을 하기 시작해도 소리가 울리며 매우
+                        시끄러워지기 때문. 그냥 서서 구경하는 건 제한이 없다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">- 신라 ~ 조선시대 :
+                    </h2>신라 불교 예술의 전성기를 이룬 경덕왕 시기, 재상이던 김대성과 이성룡이 창건해서 774년에 완성하였다고 한다. 당시에는 석불사로
+                    불렸으며 유홍준의 나의 문화유산 답사기에서도 석불사로 언급된다. 석굴사원은 불교의 전래 경로였던 인도와 중국 등의 영향을 받은 것으로, 한반도는
+                    조각 난이도가 높은 돌인 화강암과 청석류가 많고 기후도 달라 저들 나라만큼 석굴이 많이, 크게 지어지지는 않았지만 이 시기 신라에서는 군위군의
+                    삼존석굴(일명 제2석굴암), 골굴사의 12개 석굴, 양산시의 미타암, 남산 칠불암 등 한국사에서 손꼽히게 석굴사원이 많이 지어졌다. 그 중에서도
+                    석굴암은 가장 정교하게 제작된 곳이다.
+
+                    <br><br>고려 건국 이후 귀족세계에서 멀어진 석굴암은 그 존재감이 약해져 일부 기행문에서 간간히 언급된다. 17세기~18세기 정시한의
+                        산중일기, 정선의 교남명승첩 등의 기록에 따르면 이 때까지는 어느 정도 석굴암이 관리되었고, 산중일기를 보면 전주에서 불국사와 석굴을 보러 오는
+                        사람이 언급되므로 전국적으로 알려졌고 참배객도 있었음을 알 수 있다. 조선 시대 숙종 29년(1703), 영조 34년(1758)에 보수했다는
+                        기록이 있고 조선 말기 울산병사 조예상(趙禮相)이 크게 중수했다고 한다.
+
+                    <br><br>조선시대를 거치며 경주도 평범한 지방도시로 위상이 떨어지고 불교도 숭유억불 정책으로 차츰 세가 줄어드는 와중에 석굴암도 산중턱에
+                        있다는 점까지 겹쳐 차츰 잊혀지고 방치되었다. 특히 조선 말기에는 전국적으로 의병 활동이 활발해 깊은 산 속의 치안이 불안해져 스님들이 산
+                        아래로 내려가 비어 있는 절이 많았다고 한다. 1902년 8월 세키노 타다시, 1906년 이마니시 류 등 당대의 일제 유수의 사학자들이 불국사를
+                        보러 와서 사진도 찍고 조사했지만 석굴암은 방문하지 않았다. 그들이 이 뒤로 얼마나 한국 유적지 이곳저곳을 활발하게 조사했는지 보면, 불국사를
+                        가놓고도 석굴암엔 안 갔음은 석굴암의 존재를 몰랐다는 증거로 보아야 자연스럽다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">-현대의 재발견 :
+                    </h2>한일 강제 합병 직전인 1909년, 잊혀 있던 석굴암을 발견한 것은 경주의 한 우체국이었다. 토함산의 동산령을 넘어 동해안 지대로
+                    배달가던 우체부가 범곡 근처에서 능 같은 것을 발견했다. 가까이 가보니 입구에는 문이 있고 천장은 무너져 있었던 석굴암을 발견하게 되는
+                    순간이었다...라고 알려져 있지만 조선 후기 문인들의 기록만 보아도 상당수가 석굴암을 인지하고 방문하였다는 것을 알 수 있다. 즉, 일제의
+                    문화사업 일종의 퍼포먼스로 그 전에는 알려져 있지 않았던 새로운 유적을 발견한 양 홍보한 것이다. 다만 이 '발견' 직전까지 잊혀져 있었던 것은
+                    맞다.
+
+                    <br><br>석굴암이 일제가 발견하기전에는 멀쩡했다고 생각되지만 실제로는 전혀 아니며 발견했을때부터 당시 석굴암의 보존 상태는 최악이었다.
+                        당시 자료에 따르면 "본존불의 코가 깨졌고 연화대 또한 심하게 갈라져 파손되었으며, 천장 3분의 1이 이미 추락하여 구멍이 생겨 그 구멍에서
+                        흙이 들어오고 있어 그대로 방치할 경우 모든 불상이 파손될 위험이 있다."고 적혀 있을 정도로 보존 상태가 극히 불량하였다. 특히 가운데
+                        본존불의 코는 깨지고 연화대도 심하게 갈라지고 깨져 있었다고 한다. 그래서 1909년 조선통감부는 처음엔 산간 벽지에 있는 석굴암을 해체해
+                        경성부로 옮길 계획을 세웠지만 막상 해체를 시작해보니 돌들의 무게가 워낙 무거워서 이전은 불가능하다고 판단해서 이전을 포기하고,
+                        1913~1915년, 1917년, 1920년~1923년까지 세 차례 전면적 수리를 했다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">-일제강점기 :
+                    </h2>경술국치 직전 일본에 반출될 뻔하기도 했으나 현지 관리가 이를 거절하였고 조선 총독 데라우치가 이곳을 시찰한 뒤 석굴암을 제자리에 두되
+                    현지에서 보수한다는 결정을 내리게 되면서 한국에 남아있게 되었고 보수가 시작되었다. 이미 조선이 일본의 일부가 됐으므로 어디 있든 일본 정부의
+                    재산이니 굳이 옮길 필요 없다고 생각했고, 반출 대신 관리로 노선을 바꾸게 된 것이다. 1913년 10월부터 감개돌을 고정하기 위한 공사를
+                    시작으로 석굴 천장 부분에 목제 가구(假構)를 설치하였고, 1914년 8월 말 돔형 지붕을 분리하여 완전 해체한 후, 1915년 5월 석굴을
+                    재조립하는 등 1915년 9월까지 석굴을 완전히 해체하고 복원하였다.
+
+                    <br><br>그러나 이 과정에서 석굴암에 습기 문제가 생겼다. 석굴암이 있는 장소는 아주 습한 곳인데 수리 과정에서 불상을 습기로부터 차단하고
+                        석병을 보강하기 위해 나름의 첨단 건축기법을 도입한 것이었다. 이로 인해 석굴 밖에 외벽이 세워졌고 외벽과 석굴 사이에 콘크리트가 채워졌다.
+                        하지만 당시엔 콘크리트의 문제점이 밝혀지지 않은 때라 안타까운 부분.
+
+                    <br><br>석굴암은 지하수 샘물이 솟아나는 암반 위에 있다. 샘물 때문에 석굴 바닥 온도는 본존불이 있는 위쪽보다 낮아 원래 이슬은 바닥에만
+                        맺혔다. 수분은 0.1도 차이만 있어도 차가운 쪽에서 물 분자 이동이 저하돼 결로 현상이 일어난다는 사실을 신라 사람들은 알았고, 1천 년
+                        이상을 버텨왔는데 일제가 이 땅 속에 콸콸 흐르는 샘물을 아연관을 만들어 빼버리니 바닥의 온도가 높아져 정교한 조각이 있는 석굴 벽면 표면에
+                        결로가 생기기 시작, 바로 문제가 생긴 것이다. 그 결과 시멘트가 화강암을 손상시켰고, 석굴암의 상세한 구조를 제대로 파악하지 않은 채로 공사를
+                        강행하여 내부 벽과 불상 표면에 엄청난 결로와 이끼가 나타났다.
+
+                    <br><br>1917년 누수 현상과 습기 등으로 바닥과 천장 위로 물이 스며드는 문제가 나타나자 1920년부터 1923년까지 천장의 방수를
+                        위해 아스팔트를 바르고 석실 지하 아연 배수로의 방향을 바꾸는 보수 공사를 실시했으나, 그럼에도 불구하고 습기 문제가 해결되지 않아
+                        1927년에는 푸른 이끼를 없애기 위해 증기 세척을 했다. 당시 보수 공사 비용은 당시 돈으로 2만 2726원. 지금 가치로 대략 38억 원
+                        정도 된다. 이끼가 또 생겨 1934년에도 증기 세척을 했는데 문제는 이 과정에서 거친 처리로 본존불을 비롯한 조각들이 많이 마모됐다.
+
+                    <br><br>무엇보다 당시 일본 실무진들은 대형 고대 석조 문화재 지식이 거의 전무했다. 특히 이들은 당시 현지의 석공 장인들에게 조언을
+                        구하거나 이들을 공사에 참여시키지도 않았다. 게다가 현장의 조선인은 잡역 인부를 빼고는 모두 일본에서 온 사람들이었다. 또한 조선인들도 완전히
+                        잊었던 석굴암의 '제대로 된 사진'이나 '기록'은 당연히 없었다. 복원 이전에 남긴 사진이나 자료들은 대체로 일본인이 남긴 것이다.게다가
+                        복원공사를 하며 어떻게 해체했는지 기록하지 않았기에 사진조차도 제대로 남은 게 없다. 남은 사진과 자료들은 지금의 복원 작업에는 전혀 도움이
+                        되지 않는다. 만약 있었다면 해방 후 보수공사마저 이런 꼴이 되진 않았을 것이다.
+
+                    <br><br>만약 해체 보수를 매뉴얼대로 제대로 했다면 이 석재들은 다시 제대로 조립되었든지, 아니면 최소한 어느 지점에 있던 몇 번 석재
+                        같은 메모라도 있어야 한다. 하지만 일제는 그런 조치를 취하지 않은 채 제대로 조사기록을 남기지도 않고 주먹구구로 해체공사를 추진했다.<br><br><hr style="border: solid 1px black;"><br><br>
+
+                    <h2 style="display: inline;">-해방 이후 :
+                    </h2>
+                    장면 내각과 박정희 정권 때 다시 재보수를 했지만 콘크리트를 떼어내도 모자랄 판에 그 위에 돔형으로 콘크리트를 다시(!) 타설했다. 당시
+                    유네스코에서 온 석조문화재 전문가까지 초빙해서 추진한 공사였으나 우습게도 그 문화재 전문가는 결정이 난 뒤에야 국내 전문가의 의견을 듣고 "이건
+                    안되겠다. 하면 안 된다."며 박정희 대통령에게 복구 공사 취소 및 재설계로 입장을 바꿨다. 하지만 박정희는 그 조언을 무시하고 공사를 강행,
+                    그 결과는 더 미칠듯한 내부 습기로 금세 나타났다. 이중 콘크리트 돔 사이에 들어있는 더운 공기가 쉽게 빠져나가지 못해서 여름이 되면 굴 내부의
+                    상대온도와 상대습도가 급격히 낮아져 석굴 벽면에서 물이 흘러넘치는 수준이 되었다. 게다가 이 습기로 인해 내부에 이끼가 더 끼자 이를
+                    제거한답시고 고압 증기를 이용한 세척 작업을 했다. 그 과정에서 훼손이 더 생긴 것은 당연한 일.
+
+                    <br><br>결국 서울대 기계공학과 김효경 교수가 투입되어 석굴암 내부를 완전히 밀폐하고 그 안에 에어컨을 계속 가동함으로써 습기를 제거하는
+                        방법을 썼다. 이로서 일단 에어컨이 돌아가는 동안은 문제없는 상태가 되었고 지금까지 이어지고 있다. 물론 에어컨의 미세한 소음과 진동이 수십,
+                        수백년 계속되면 미세하게 훼손이 된다는 우려는 계속되고 있다.
+
+                    <br><br>그리고 이 밀폐와 에어컨 처리로 인해 석굴암은 본래 의미를 완전히 잃어버린 완전통제구역이 되어버렸다. 본래 설계도만 봐도 참배객이
+                        직접 석굴 안으로 들어와서 석굴암 본존불 주위의 10대 제자상과 11면 관음상으로 둘러진 방을 한 바퀴 돌면서 참배하는 구조임을 생각해 본다면
+                        이렇게 입구를 틀어막아버리고 밀폐하는 건 원래 의미를 거의 잃어버리는 뼈 아픈 결정. 게다가 24시간 365일 내내 돌아가는 에어컨 작동이
+                        잠깐이라도 중지된다면 지금도 바로 다시 습기 문제가 발생할 밑 빠진 독에 물 붓기식 미봉책이었다. 하지만 일단 당장 생기는 습기는 제거해야
+                        했기에 김효경 교수 팀은 완전 통제 및 에어컨 설치를 할 수밖에 없었다. 그나마 부처님 오신 날 하루 만큼은 신자들을 위해 원래 용도대로 본존불
+                        주변을 한 바퀴 도는 방식의 참배가 허용되는데, 이것도 문 열어놓고 에어컨 트는 격전기낭비이라 자주 그러기는 어렵다.
+
+                    <br><br>2013년 11월에는 대좌의 균열 문제가 심각하다는 보도가 있었다. 결국 긴급 점검에 들어갔다고 한다. 또한 장기적으로 원형
+                        복원을 검토 중이라고 한다. 2015년 8월 29일, 보수 공사 완료 공지 안내문이 올라왔다.
+                    <br><br><hr style="border: solid 1px black;"><br><br>
+
+                    <h2 style="display: inline;">예술적 측면 :
+                    </h2>석굴암 본존불은 한국 불교미술사의 석불에서 가장 뛰어난 작품으로 평가받는다. 이때를 기점으로 이후의 석불들은 조형적인 완성도에서 오히려
+                    점차 쇠퇴한다.
+
+                    <br><br>통일신라는 성덕왕 때부터 전제왕권이 수립되고 효성왕~경덕왕 초기에 이르는 시기까지 신라의 전제 왕권이 극성기를 맞던 때였으며
+                        화엄종과 같은 종파 불교가 전제왕권의 이념적 기반이 되어주었다. 그리고 이때의 경주는 국제도시로 변모하고 당, 인도, 페르시아 문화가 직접적으로
+                        수입될 수 있었다. 이 시기의 예술적 특징은 성당(盛唐)의 사실주의 양식을 적극적으로 수용하여 신라화된 모습을 보여줘서 '이상적 사실주의'에
+                        기반한 예술품들이 만들어지기 시작한다. 즉, 사실적으로 묘사하되 조형적으로 완벽한 불상을 만들었다. 중국에 영향을 주었던 인도 간다라 미술의
+                        영향도 고려된다.
+
+                    <br><br>석굴암 본존불은 이상적 사실주의에 바탕한 육감적인 관능성을 보여준다. 쇄골 표현이나 허리와 엉덩이는 완전히 일직선이라거나...
+                        불상의 표정은 자비롭다기보다는 왕을 연상케 하듯 근엄하고 덩치가 크고 남성적인 느낌이 철철 흐른다. 그 이유는 위에 서술한 전제 왕권 강화와
+                        맥락을 같이 한다. 왕즉불 사상에 의거해서 실제 경덕왕의 얼굴이 본존불의 모델이라는 설도 있다.
+
+                    <br><br>또한 실제 비율보다는 관람자의 시선을 감안해 원근법을 활용한 있다. 본존불상이 실제 인간의 신체 비례와 달리 몸에 비해 얼굴이 큰
+                        편이고, 뒤쪽 지붕에 조각된 광배(후광)도 실제로는 약간 타원형이다. 영남대 김익수 교수는 석굴암을 건설한 김대성의 키가 170 cm일 것이라고
+                        추정했는데, 본존불 앞에 서서 올려다볼 때 이 타원형 광배가 원근법상 가장 똑바른 원으로 보이는 지점이 172 cm인 사람의 눈높이인 160
+                        cm라는 것이다. 172에서 신발의 높이 2 cm를 빼서 170 cm라는 것이다.
+
+                    <br><br>조각의 기술적인 측면에서도 그 솜씨가 매우 뛰어나다. 보통 석조 조각은 비교적 무른 대리석(모스경도 2~3)을 이용하지만,
+                        석굴암은 암석 중에서 특히 단단한 화강암(모스 경도 6~7정도)을 깎아 만들었으므로, 조각 난이도로서는 단언 최상위라 할 수 있다. 간다라
+                        불상이나 당시 그리스 석상에 비해 투박하지만 조각 난이도가 매우 힘든 화강암을 이 정도로 조각한 게 용하다.
+
+                    <br><br>본존불 앞 석실 통로에 새겨진 11면 관음은 중국 보경사 11면 관음과 상당히 유사하다.
+
+                    <br><br>위에서 언급했던 석불사 밑의 샘물도 주목할 만 한데, 물이 건물의 하단부를 통해 밖으로 빠져나오면서 물보라를 일으켜 석불사가 마치
+                        구름 위에 있는 것처럼 보였다고 한다. 더욱이 햇빛이 비치는 날에는 물보라에 빛이 산란되어 무지개까지 만들어져 더욱 신비로웠다고 한다.
+                    <br><br><hr style="border: solid 1px black;"><br><br>
+
+                    <h2 style="display: inline;">논란 :
+                    </h2>그런데 석굴암 불상에는 논란이 있다. 첫 번째는 조성연대 문제다. 삼국유사에는 불국사가 751년에 중건되어 774년에 완공되었다고
+                    한다. 시기 문제가 중요한 이유는 신라 불교미술은 중대와 하대의 양식이 서로 차원이 다르기 때문이다. 삼국유사는 불국사의 창건 연대를 기록했을
+                    뿐 석굴암을 언제 만들었는지는 적지 않았다. 심지어 불국사도 751년에 창건을 시작하여 김대성이 774년에 사망하고 나라에서 이어 완공하였다고
+                    서술되어 있다. 이는 774년 이후 완공을 의미하지 774년에 완공이 되었다고 단정지을 수 없다. 거기에 불국사석탑에서 발견된 석탑중수기 일명
+                    묵서지편이 판독되었는데 여기에는 불국사의 창건 시작 연대를 742년으로 기록했다. 삼국유사와는 9년이 차이난다.
+
+                    <br><br>석굴암을 오랜 시간에 걸쳐 만드느라 내부 조각상들의 양식이 서로 달라졌다. 이 것이 두 번째 문제이다. 본존불을 1양식, 그
+                        주변을 둘러싼 10대제자상을 2양식, 사천왕이나 인왕상, 팔부중상을 3양식으로 명명해보자. 1양식과 3양식의 조형적 미감은 확연하게 차이가
+                        난다. 본존불이 최정점이라면 팔부중은 그에 비해서 세밀함이 덜하고 양감이 부족하다.
+
+                    <br><br>세 번째 문제는 본존불의 명호가 무엇이냐는 것이다. 명호 문제가 중요한 것은 이 불상의 명호에 따라 주변에 배치된 조각상들의
+                        명호도 달라지기 때문이다. 본존불이 오른손은 땅을 가리키고 왼손은 무릎 위에 올려 바닥을 보이게 하는 '항마촉지인'(降魔觸地印)을 취했는데,
+                        항마촉지인은 본래 석가불만 취하는 수인(手印)이다. 그래서 일본인 학자들은 오랫동안 석굴암 본존불상을 석가여래라고 판단했지만, 석가불이 아니라
+                        아미타불이라는 주장이 제기되었다. 왜냐하면 신라 불상은 항마촉지인을 했는데도 아미타불인 경우가 있기 때문이다. 부석사 무량수전 본존불 역시
+                        항마촉지인을 했는데도 석가불이 아닌 아미타불이다. 또한 창건자 김대성 관련 설화 또한 아미타불일 가능성에 힘을 실어준다. 김대성 설화에선
+                        김대성이 전생의 부모를 위해 석굴암을 지었다고 하는데, 전생의 부모가 극락왕생하길 바랐다면 아미타불을 조성함이 자연스럽기 때문이다.
+
+                    <br><br id="scrollbottom">신라에서 항마촉지인을 한 아미타불이 나온 이유는 당시 신라의 특수한 상황 때문이었다. 삼국시대에는 미륵이 어느 나라에 강림하느냐에
+                        관심을 쏟느라 미륵 신앙이 유행했다. 통일신라 때는 전쟁 때 희생된 전몰자들의 명복을 비는 차원에서 정토 사상에 기반한 아미타 신앙이 유행했다.
+                        당시 제작된 불상은 우견편단(右肩偏袒)에 항마촉지인을 하였다.
+
+                    <br><br>하지만 학계에서 석가여래라고 주장함은 본존불 주변에 있는 10대제자상 때문이다. 10대제자는 석가모니의 제자이므로 석가불상에만
+                        함께 배치한다. 석가모니의 제자들을 아미타불상 주변에 배치한다면 굉장히 이상하다. 또한 본존불 앞 석실 통로에는 십일면관음의 부조가 있는데,
+                        관세음보살은 석가불을 호위하는 보살이다. 어쨌든 이런 이유로 학계에서 석가여래를 주장하는 사람은 9, 아미타불을 주장하는 사람은 1 정도로
+                        석가여래라는 것이 중론이다.<br><br><hr style="border: solid 1px black;"><br><br>
+
+                    <br><br><br><br><br><br>
+
+                    <!--<h2 style="display: inline;">건축자 : </h2><br><br><hr style="border: solid 1px
+                    black;"><br><br>-->
+
+                </article>
+            </main>
+
+        </div>
+
+        <div style="position: fixed; bottom: 5px; right: 40px">
+            <a href="#"><img src="위쪽 화살표.png" title="위로 가기" width="30" height="30"></a>
+        </div>
+        <div style="position: fixed; bottom: 5px; right: 5px">
+            <a href="#scrollbottom"><img src="아래쪽 화살표.png" title="아래로 가기" width="30" height="30"></a>
+        </div>
+
+        <footer style="background-color: #333;">
+            <div style="width: 1200px; margin: 0 auto;">
+                <div class="footer1">
+                    <div id="Introduce_K-culture">
+                        <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+                    </div>
+
+                    <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+                        &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+                        &nbsp;&nbsp;-멘티: 배준영<br></p>
+
+                    <a href='5.html'>
+                        <strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong>
+                    </a><br><br>
+                </div>
+
+                <div class="footerLogo">
+                    <h1>
+                        <a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a>
+                    </h1>
+                    <address>서울시 강동구 천호대로219길 61<p>
+                            TEL.02-428-0733.<br>
+                            holol0711@naver.com</p>
+                    </address>
+                    <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+                    <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+                    <a
+                        href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w"
+                        target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright (C)2021 Sangil media. All Rights Reserved
+            </div>
+        </div>
     </div>
-</header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
 
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
+</footer>
 
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
-
-<h2><P style="text-align:center;">석굴암 (Seokguram)</P></h2>
-
-    </body>
+</body>
 </html>

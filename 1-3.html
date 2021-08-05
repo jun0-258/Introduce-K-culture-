@@ -3,32 +3,596 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="main_article.css">
+
+        <style>
+            nav {
+                font-size: 12pt;
+                font-family: 'PT Sans', Arial, Sans-serif;
+                position: relative;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: auto;
+            }
+            nav li {}
+            nav a {
+                line-height: 50px;
+                height: 50px;
+            }
+            nav li a {
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            nav li:last-child a {
+                border-right: 0;
+            }
+            nav a:active,
+            nav a:hover {}
+            nav a#pull {
+                display: none;
+            }
+            html {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            ul {
+                /*list-style-type: none;*/
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+                text-align: center;
+            }
+            li {
+                /*position: relative;*/
+                display: inline-block;
+            }
+            li a {
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14.5px 30px;
+                text-decoration: none;
+            }
+            li a:hover {
+                /*color: #597812;*/
+                color: #FFD400;
+                font-weight: normal;
+            }
+            .menu {
+                width: 5000px;
+                height: 50px;
+                text-align: center;
+                max-width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-color: #333333;
+                color: white;
+                position: absolute;
+                z-index: 1;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center;
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+
+            }
+            .footer1 {
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+        </style>
+
     </head>
-    <body style="background-color: ivory;">
-<header>
-    <div style="text-align:center;">
-     <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
+    <body style="background-color: ivory; margin: 0px;" bottommargin="0">
+        <header>
+            <div style="text-align:center;">
+                <h1>
+                    <a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a>
+                </h1>
+            </div>
+        </header>
+        <div class="menu" style="position: sticky; top: 0; justify-content: center;">
+            <nav class="clearfix">
+                <ul class="clearfix">
+                    <li style="text-align: right;">
+                        <a href="1.html">건축물</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="2.html">음식</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="3.html">문화</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="4.html">축제</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div style="display: flex;">
+
+            <sidebar class="classy" style="padding-top: 200px; width: 380.6px;">
+
+                <div class="classy1" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="1.html">건축물</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="1-1.html" style="text-decoration: none;">&nbsp;&nbsp;경복궁 (Gyeongbokgung)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-2.html">&nbsp;&nbsp;석굴암 (Seokguram)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-3.html">&nbsp;&nbsp;수원화성 (Suwon Hwaseong)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-4.html">&nbsp;&nbsp;한강 선유도공원 (sunyudo park)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-5.html">&nbsp;&nbsp;롯데월드타워 (Lotte world Tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-6.html">&nbsp;&nbsp;남산서울타워 (namsan seoul tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-7.html">&nbsp;&nbsp;인천국제공항 (Incheon Airport)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-8.html">&nbsp;&nbsp;동대문 디자인 플라자 (DDP)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-9.html">&nbsp;&nbsp;63빌딩 (63 Building)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-10.html">&nbsp;&nbsp;청와대 (Blue house)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy2" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="2.html">음식</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="2-1.html" style="text-decoration: none;">&nbsp;&nbsp;김치 (Kimchi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-2.html">&nbsp;&nbsp;불고기 (bulgogi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-3.html">&nbsp;&nbsp;떡볶이 (Tteokbokki)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-4.html">&nbsp;&nbsp;라면 (Ramen)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-5.html">&nbsp;&nbsp;떡갈비 (tteokgalbi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-6.html">&nbsp;&nbsp;칼국수 (kalguksu)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-7.html">&nbsp;&nbsp;보쌈 (bossam)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-8.html">&nbsp;&nbsp;족발 (pigtrotters)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-9.html">&nbsp;&nbsp;식혜 (sikhye)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-10.html">&nbsp;&nbsp;비빔밥 (bibimbap)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy3" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="3.html">한국의 문화</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="3-1.html" style="text-decoration: none;">&nbsp;&nbsp;한국인의 정 (Korean emotional attachment)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-2.html">&nbsp;&nbsp;빨리빨리 문화 (ppalli ppalli culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-3.html">&nbsp;&nbsp;K-pop</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-4.html">&nbsp;&nbsp;야간자율학습 (self study at school at night)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-5.html">&nbsp;&nbsp;밑반찬 (Side dish)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-6.html">&nbsp;&nbsp;K-입시 (Korea College entrance examination)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-7.html">&nbsp;&nbsp;대중교통 문화 (Public transport culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-8.html">&nbsp;&nbsp;한국의 치안 (Korean Safety)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-9.html">&nbsp;&nbsp;한국의 나이 문화 (Age culture in Korea)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-10.html">&nbsp;&nbsp;한국의 배달 문화 (Korean delivery culture)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div class="classy4" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="4.html">축제</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="4-1.html" style="text-decoration: none;">&nbsp;&nbsp;보령 머드 축제 (Boryeong Mud festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-2.html">&nbsp;&nbsp;통영 한산대첩 축제 (The Great Battle of Hansan Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-3.html">&nbsp;&nbsp;대학축제 (University Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-4.html">&nbsp;&nbsp;화천산천어축제 (Mountain Trout Ice Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-5.html">&nbsp;&nbsp;청도 소싸움 축제 (Cheongdo bullfighting festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-6.html">&nbsp;&nbsp;보성 녹차 축제 (Boseong Greentea Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-7.html">&nbsp;&nbsp;강릉단오제 (Gangneong Dano Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-8.html">&nbsp;&nbsp;진도 신비의 바닷길 축제 (Jindo Sea Parting Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-9.html">&nbsp;&nbsp;진주 유등 축제 (Jinju Lantern Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-10.html">&nbsp;&nbsp;지평선 축제(horizon festival)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div style="padding-bottom: 150px">
+                    <hr>
+                </div>
+
+            </sidebar>
+
+            <main style="width: 100%; padding-top: 100px;">
+                <article>
+                    <h2 style="width: 623px; text-align: right;">
+                        <strong>수원화성 (Suwon Hwaseong)</strong>
+                    </h2><br>
+
+                    <div style="display: flex;"><img src="수원화성.jpg" width="623" height="512">
+
+                        <table
+                            width="70%"
+                            style="background-color:#fff; width:100%; border:2px solid #315288; width:420px; margin-left: 45px;"
+                            data-dark-style="background-color:#1f2023;">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">
+                                        <div style="text-align: center;">
+
+                                            <img
+                                                src="정부상징.jpg"
+                                                width="21"
+                                                height="21"
+                                                style="position: relative; text-align: center;">
+
+                                            <strong>
+                                                <div style="color:#f39100; text-align: center;">대한민국 사적 제3호</div>
+                                            </strong>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <span class="wiki-color" style="color:#fff">
+                                                <span>
+                                                    <strong>수원화성</strong>
+                                                </span><br>
+                                                <span>水原華城 | Hwaseong Fortress</span></span></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color: #E2E2E2; text-align:center;">
+                                        <div>
+                                            <div style="margin:-5px -10px">
+                                                <div>
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6349.081791647129!2d127.00882072744308!3d37.282312555934006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5cca0fa82ebb%3A0x1326e46ba3ed1641!2z7IiY7JuQ7ZmU7ISx!5e0!3m2!1sko!2skr!4v1627154372725!5m2!1sko!2skr"
+                                                        width="95%"
+                                                        style="border:0;"
+                                                        allowfullscreen=""
+                                                        height="250px"
+                                                        frameborder="0"
+                                                        loading="lazy"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; width:90px; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">소재지</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            경기도 수원시 팔달구 장안동 1-2 외
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">분류</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>유적건조물 / 정치국방 / 성 / 성곽</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">면적</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>384,666㎡</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff" >지정연도</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>1963년 1월 21일</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">건축시기</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            조선시대, 1796년
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">링크</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            <a
+                                                style="text-decoration: black;"
+                                                href="https://www.swcf.or.kr/"
+                                                target="_blank"
+                                                rel="nofollow noopener"
+                                                title="https://www.swcf.or.kr/">공식 홈페이지</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div><br><br><br><br><br><br>
+
+                    <h2 style="display: inline;">소개 :
+                    </h2>조선시대 정조가 지은 수원시의 성곽 건축물. 1997년 12월 유네스코 세계유산에도 등록되었으며, 치밀한 사전 계획 하에 만들어진
+                    계획도시다. 수원시의 상징이다.
+
+                    <br><br>오늘날의 수원화성은 수 차례의 자연 재해와 한국전쟁 당시 파괴된 것을 일부 복원한 상태이다.
+
+                    <br><br>원래 유네스코에 등재되는 건축물은 원본 그대로인 건축물이어야 하는데 수원화성은 70년대에 대대적인 복원을 거쳐 이러한 규칙에 맞지
+                        않았다. 하지만 조선시대에 수원화성을 계획하면서 그림과 글로 설계도와 내용을 철저하게 남겨놓은 화성성역의궤 덕분에 원형에 가깝게 복원할 수
+                        있었다는 점을 인정받아 이례적으로 유네스코 세계문화유산으로 등재될 수 있었다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">상세 :
+                    </h2>정식 명칭은 수원화성(水原華城)으로, 약칭으로 수원성(水原城), 또는 화성(華城)이라고도 부르며, [화성시]의 '화성'도 바로 여기에서
+                    따온 명칭이다. 오늘날의 시각으로 보면, 화성이 화성시에 없고 수원시에 있는 것을 이상하게 여길 수 있다. 이는 수원시와 화성시의 역사적
+                    행정구역 변천사를 보면 이해할 수 있다. 현재의 화성시(화성군)는 원래 수원군에 속했는데, 1949년 수원군 수원읍이 수원부(수원시)로 분리
+                    승격되면서, 수원군의 잔여 지역을 이 화성의 이름을 따 화성군으로 개칭한 것이다. 그때도 수원화성은 수원읍에 있었음에도, 분리 승격될 수원부
+                    지역과 잔여 수원군의 동질성을 부각하기 위해 이름만 따서 이렇게 된 것이다.
+
+                    <br><br>실제로 수원과 화성은 같은 고을로 수원화성 축조 전까지 수원부(수원도호부)의 원래 읍치(邑治, 고을 소재지)는 현재의 화성시
+                        화산동(안녕동) 일대였으나 바로 이 곳에 정조가 아버지 사도세자의 능원을 조성하면서(현륭원, 현재의 융릉) 기존 읍치를 밀어버리고 수원화성을
+                        축조하면서 읍치를 이전한 것이다. 또한 수원부의 진산(鎭山)인 '화산(花山/華山)'은 수원 고을의 별칭으로 불리기도 했으며, 이를 본따 이 성의
+                        이름을 '화성(華城)'이라 짓게 된 것이다. 1793년 수원부가 유수부로 승격되면서 수원부사를 '화성유수(留守, 오늘날의 수원시장)'로,
+                        수원도호부(수원부)를 '화성유수부(화성부)'라 불렀다.
+
+                    <br><br>군사적으로도 이전에 비해 진일보한 면모를 보인다. 가장 두드러지는 건 치성의 활용으로, 성벽 전체 구간에 치성을 갖추어 성벽에
+                        달라붙는 적을 세 방향에서 공격할 수 있도록 해놓았다.
+
+                    <br><br>다만 세간에 퍼진 화포에 대비하여 성벽을 낮게 쌓고 뒤쪽에 언덕을 덧대었다는 이야기는 낭설에 가깝다. 이런 방식은 내탁외축이라고
+                        하여 삼국시대부터 내려온 한국 전통의 축성방식이다. 성벽 높이도 삼년산성 같은 삼국시대의 거대 성벽이나 해외의 거성에 비교하여 낮은 것이지
+                        조선시대의 읍성치곤 그렇게 낮지도 않다. 수원화성의 성벽이 낮은 직접적인 원인은 예산 부족이다. 원안은 25척의 높이를 가진 성벽을 쌓는
+                        거였는데 예산이 딸려서 20척 높이로 낮춰 쌓았다고.
+
+                    <br><br>특이점으로, 수원화성의 남문인 팔달문은 정문이 아니다. 정문은 북문인 장안문. 일반적으로 동북아에서는 남문이 정문이지만,
+                        수원화성에서는 정조가 한성에서 수원화성으로 올 때 북쪽에서 들어오기 때문에 임금이 들어오는 문을 정문으로 한 것이다. 그래서 장안문은 팔달문보다
+                        크다.
+
+                    <br><br>간혹 팔달문=수원화성으로 아는 사람이 있으나 팔달문은 화성의 일부분일 뿐이다. 한양도성의 숭례문/남대문과 마찬가지로 교통을 이유로
+                        좌우의 성벽이 헐린 상태라서 독립적인 건축으로 보일 뿐이다.
+
+                    <br><br>2011년 이후 팔달문 좌우 및 남수문 일대를 제외한 성곽 전 노선이 연결되어 팔달문을 기/종점으로 삼아 화성 일주가 가능하다.
+                        화성 일주는 성인 기준으로 약 3시간 정도 걸린다. 팔달문과 같은 이유로 성벽 좌우측이 절단된 장안문 및 성벽 일부가 헐린 창룡문의 경우 육교로
+                        연결되어 있는데, 팔달문 인근이 이렇게 연결이 어려운 것은 이미 못골시장, 영동시장 등을 비롯한 재래시장 및 상가들이 밀집한 상태라, 이걸 다
+                        헐어내고 성곽을 연결시킨다는 게 사실상 불가능하기 때문.
+
+                    <br><br>2012년 6월 9일, 1922년 대홍수 때 파괴된 남수문의 복원 공사가 완료되었다. 수원천 복개구간 철거 공사와 맞물려 이루어진
+                        공사인데, 상부의 여장은 화성성역의궤에 근거하여 복원되었으나, 하부의 수문은 9개의 수문은 유지하되 홍수 대비를 위해 세부는 상당히 다르게
+                        복원되었다. 원래의 수문은 오각형 기둥이 이중으로 배열되고, 전/후열의 기둥 사이가 비어있었으나, 복원된 남수문은 일자형 기둥으로 건설되었다.
+                        이는 문화재청 사적분과위원회의 승인을 받아 진행되었지만, 향후 학계에서 논란의 소지는 남아있다. 여하튼 현재는 팔달문 좌우의 성벽을 제외한 전
+                        성벽이 연결된 상태.
+
+                    <br><br>걸어서 관람도 가능하고, 성벽을 따라 산책로가 매우 잘 조성되어 있고, 길을 따라 걸으면서 보이는 경치나 소소한 볼거리도 훌륭한
+                        편이다. 특히 화서문 - 장안문 - 화홍문 - 방화수류정 - 활터까지 이르는 성벽길은 조명도 꽤 괜찮게 해놓아서, 해진 저녁에 연인과 분위기를
+                        잡고 싶다면 추천하는 코스다. 화홍문 옆의 호수인 용연 옆 언덕 위에 있는 방화수류정은 수원에서 숨겨진 데이트 핫 플레이스. 방화수류정에서
+                        보이는 화성 전체의 경관도 좋고, 용연에 조성된 공원에서 올려다보는 방화수류정도 아름답다. 관광 열차를 사용하여 관람도 가능하다. 화성 관람 시
+                        관람료는 성인 기준 1,000원이며 중간중간 매표소에서 직원이 표를 검사하는 방식이다. 수원시민은 주소가 기재된 신분증을 제시하면 관람료가
+                        면제된다. 또한 '2016년 수원화성 방문의 해'를 맞아 창룡문 밖 주차장에 수원화성을 한눈에 볼 수 있는 열기구가 생겼다. 다만 좀 비싸다.
+
+                    <br><br>화성 성곽 내부에 화성행궁이 있다.
+
+                    <br><br>정조가 수원화성을 지으면서 수원유수부 관아를 화성행궁에 위치시켰다. 그러다가 조선총독부가 세워지면서 1912년 수원유수부를
+                        철폐하여 관아가 폐지되었다. 이후 수원부청이 세워졌으나 조선총독부의 결정으로 수원부청은 수원화성 바깥으로 나가게 됐다. 결국 현대 대한민국에
+                        와서 수원화성 내부에는 오랫동안 수원시청 및 수원시 관련 행정관청이 단 하나도 없었다. 2014년 4월 팔달구 구청이 수원화성 내부 종로사거리에
+                        입주하였다. 이로써 102년 만에 수원화성 내부에 수원시 지방관청이 처음으로 복귀했다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">건축 배경 :
+                    </h2>정조가 화성을 세운 가장 큰 이유는 자신의 이상적인 도시를 만들기 위함이었다. 그는 자신이 꿈꾸는 도시를 만들기 위해 철저하게 계획하고
+                    실천하였으며, 정교한 석축술을 보여준 것이 이 화성이다.
+
+                    <br><br>또한, 할아버지인 영조에 의해 죽은 아버지인 장헌세자(사도세자)의 묘를 이장하기 위해 지었으며, 정약용에게 궁중 비서인
+                        '기기도설'을 하사하여 거중기를 제작하게 하여 정약용이 거중기를 사용하여 만들었다. 또한, 화성 축조를 통해 수도의 북쪽(평양, 개성),
+                        서쪽(강화), 동쪽(광주)와 더불어 남쪽에 군사권을 마련하여 왕권 강화에 힘쓰고자 하였다.
+
+                    <br><br>일설에 따르면, 최종적으로는 말년에 순조에게 왕위를 물려주고 나서 혜경궁 홍씨와 같이 이곳에서 노후를 보내려고 했다고 하는데,
+                        병으로 정조가 일찍 사망해서 실현되지 못했다고 한다. 여하튼 왕릉을 옮기고, 왕의 직속 군대인 장용영의 외영을 이 곳에 두었다는 점에서, 단순히
+                        성 하나 공들여 쌓았다고 볼 수 없는 지역이었다. 평지에 있는 교통의 요지인 수원에 굳이 성을 쌓았다는 점에서는, 상인들의 유통을 활발하게
+                        하려는 정조의 노력을 확인할 수 있다는 시각도 있다.
+
+                    <br><br>다만 세간에서 흔히 회자되는 천도설은 말 그대로 썰에 불과하다. 수도인 한양에 비하면 화성은 1/16 수준에 불과하며 행궁의
+                        규모는 말할 것도 없다. 즉 수원이 수도로서의 기능을 수행하려면, 화성을 내성으로 삼아 행궁을 확장한 후 별도의 외성을 추가해야 한다는
+                        이야기인데, 이 정도의 구상이 있었다면 화성성역의궤를 비롯해 어딘가에 사료로서 논의가 남아야 하지만, 현재까지 딱히 발견된 근거가 없다. 게다가
+                        지형적 제약으로 인해 수운에 목숨을 걸었던 조선이, 한강이라는 거대한 내륙 수로를 버리고 수원으로 수도를 옮겨서 얻을 수 있는 이익 자체가
+                        지극히 적다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">역사 :
+                    </h2>성벽 자체가 외벽은 벽돌로 이루어져 있지만 내벽은 자연의 지세를 이용하여 만든 점을 들어 동양 성곽 건축의 백미를 보여준다고 한다.
+                    하단은 돌로 쌓고 상단을 벽돌로 쌓았으며, 망루 간의 간격이 화포의 사거리 이내로 서로 엄호가 가능하며, 이전 조선의 성들과는 다르게 망루가 성
+                    내부에 있다. 이전에 지어진 성에는 외부에 독립된 형식으로 있었으나, 병자호란 당시 청군이 남한산성에서 독립된 망루를 점령하고 홍이포를 배치하여
+                    쏘는 등 부작용이 있었다. 또한 화공을 위한 장치와 화재를 방어하기 위한 방책도 마련되어 있으며, 약식이나마 대포에 대한 대비도 되어있는 등,
+                    방어에 상당히 신경을 쓴 형태다.
+
+                    <br><br>읍성(邑城)이 행정적 형식에 그쳐, 방어 시 읍성을 포기하고 산성에서 농성해야 했던 조선의 성들을 고려한다면, 수원화성은 이전
+                        읍성의 방어 시 문제점을 상당히 극복한 형태다. 이런 형태는 수원화성이 축조된 지 200년밖에 되지 않았음에도 불구하고 동양권에서 보기 힘든
+                        형태이기 때문에, 유네스코 세계 유산에 등록된 것이다.
+                    <br><br>화성성역의궤가 온전히 남아있어, 성이 완전히 무너져도 다시 복원할 수 있다. 현재 화성은 복원물이나, 철저히 기록에 의거하여
+                        복원했기에 세계유산으로 지정될 수 있었던 것이다. 즉 이론상으로는 완전 복원이 가능한 성. 일제강점기에 거의 반 해체된 상태였고, 한국전쟁 당시
+                        북한군의 공습으로 파괴되기도 했으나, 현재는 거의 복원됐다.
+                    <br><br id="scrollbottom">그러나 복원 이후 현대에도 은근히 수난을 겪고 있다. 예전에 화성 서장대에서 20대 청년이 술을 마시고 서장대 안에서 자다가
+                        술김에 추워서 입고 있던 재킷을 벗어서 불을 질러 태워먹었다. 이 바람에 정조가 친히 쓴 글씨였던 서장대 현판까지 전부 다 불타버렸다. 지금
+                        있는 서장대는 새로 지은 것이다. 그런데 이미 불타버린 서장대도 1990년대에 복원한 것이었다. 숭례문 방화 사건 이후 누군가가 불을 지르려
+                        시도하질 않나, 성벽에다 불을 지르질 않나. 참고로 불을 지른 용의자는 중학생이라고 한다. 용의자 주장에 따르면 핸드폰을 찾으려고 했다고.
+                        엄밀히 말해 성벽 자체에 불을 지른 것이 아닌 성벽 주변 억새밭에다 불을 질렀다. 핸드폰 찾겠다고 억새밭에 불 지르면 그 안에 핸드폰도 통구이
+                        될 거 뻔히 알 텐데 정신줄 놓고 불 지르진 않았을 테고, 억새밭 속에 짱 박혀서 담배를 피우다가 실수로 불냈다는 설이 더 설득력 있다.
+                    <br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">기타 :
+                    </h2>수원시의 랜드마크이다보니 수원시와 관련된 것에는 꼭 등장한다. 대표적으로 수원시의 로고도 버들잎 모양의 전체 성곽 형태와 가장 높은
+                    구조물인 서북공심돈을 나타낸 것이다.
+                    <br><br>2012년 제18대 대통령 선거 SBS 개표 방송에서 경기도의 랜드마크로 선정되어 출연하였다.
+                    <br><br>2015년, 수원시에서 수원화성 축조 220주년을 기념하여 2016년을 '수원화성 방문의 해'로 지정하였다. 지정과 동시에 약간의
+                        작업이 이루어지고 있는데, 동문인 창룡문을 비롯하여 성곽을 전반적으로 보수하는 한편 장안문 근처의 건물들의 벽을 정조와 화성을 상징하는 그림들로
+                        채워넣고 있다. 팔달문 쪽은 접근성 때문에 그런 그림을 넣는 일 자체가 어려워서 그냥 두고 있다.
+                    <br><br><hr style="border: solid 1px black;"><br><br><br><br><br><br>
+
+                    <!--<h2 style="display: inline;">건축자 : </h2><br><br><hr style="border: solid 1px black;"><br><br>-->
+
+                </article>
+            </main>
+
+        </div>
+
+        <div style="position: fixed; bottom: 5px; right: 40px">
+            <a href="#"><img src="위쪽 화살표.png" title="위로 가기" width="30" height="30"></a>
+        </div>
+        <div style="position: fixed; bottom: 5px; right: 5px">
+            <a href="#scrollbottom"><img src="아래쪽 화살표.png" title="아래로 가기" width="30" height="30"></a>
+        </div>
+
+        <footer style="background-color: #333;">
+            <div style="width: 1200px; margin: 0 auto;">
+                <div class="footer1">
+                    <div id="Introduce_K-culture">
+                        <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+                    </div>
+
+                    <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+                        &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+                        &nbsp;&nbsp;-멘티: 배준영<br></p>
+
+                    <a href='5.html'>
+                        <strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong>
+                    </a><br><br>
+                </div>
+
+                <div class="footerLogo">
+                    <h1>
+                        <a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a>
+                    </h1>
+                    <address>서울시 강동구 천호대로219길 61<p>
+                            TEL.02-428-0733.<br>
+                            holol0711@naver.com</p>
+                    </address>
+                    <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+                    <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+                    <a
+                        href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w"
+                        target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright (C)2021 Sangil media. All Rights Reserved
+            </div>
+        </div>
     </div>
-</header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
 
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
+</footer>
 
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
-
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
-
-<h2><P style="text-align:center;">수원화성 (Suwon Hwaseong)</P></h2>
-
-    </body>
+</body>
 </html>

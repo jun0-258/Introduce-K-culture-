@@ -3,32 +3,528 @@
     <head>
         <title>K-문화를 소개한다잉</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="main_article.css">
+
+        <style>
+            nav {
+                font-size: 12pt;
+                font-family: 'PT Sans', Arial, Sans-serif;
+                position: relative;
+            }
+            nav ul {
+                padding: 0;
+                margin: 0 auto;
+                width: auto;
+            }
+            nav li {}
+            nav a {
+                line-height: 50px;
+                height: 50px;
+            }
+            nav li a {
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            nav li:last-child a {
+                border-right: 0;
+            }
+            nav a:active,
+            nav a:hover {}
+            nav a#pull {
+                display: none;
+            }
+            html {
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+            ul {
+                /*list-style-type: none;*/
+                margin: 0;
+                padding: 0;
+                background-color: #333;
+                text-align: center;
+            }
+            li {
+                /*position: relative;*/
+                display: inline-block;
+            }
+            li a {
+                color: #FFFFFF;
+                text-align: center;
+                padding: 14.5px 30px;
+                text-decoration: none;
+            }
+            li a:hover {
+                /*color: #597812;*/
+                color: #FFD400;
+                font-weight: normal;
+            }
+            .menu {
+                width: 5000px;
+                height: 50px;
+                text-align: center;
+                max-width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-color: #333333;
+                color: white;
+                position: absolute;
+                z-index: 1;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            .footerLogo {
+                color: #b9b9b9;
+                text-align: center;
+                float: right;
+                width: 18%;
+                font-size: 14px;
+                margin-bottom: 40px;
+                margin-top: 20px;
+            }
+            .copyright {
+                max-width: 1200px;
+                margin: 0 auto;
+                clear: both;
+                color: #aeaeae;
+                font-size: 0.87em;
+                border-top: 1px solid #c5c5c5;
+                padding: 20px 0 40px;
+            }
+            .footer1 {
+                float: left;
+                margin-bottom: 40px;
+                margin-top: 30px;
+            }
+        </style>
+
     </head>
-    <body style="background-color: ivory;">
-<header>
-    <div style="text-align:center;">
-     <h1><a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a></h1>
-    </div>
-</header>
-<nav style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <div><div style="text-align:center;"><strong>건축물 (Architecture in Korea)</strong></div>
-       <h3><a href="1.html"><button type="button" style="margin: 5px;"><img src="건축물.jpg" width="260" alt="건축물 (Architecture in Korea)"></button></a></h3>
-   </div>
+    <body style="background-color: ivory; margin: 0px;" bottommargin="0">
+        <header>
+            <div style="text-align:center;">
+                <h1>
+                    <a href="index.html"><img src="img.PNG.png" width="350" alt="K-문화를 소개한다잉"></a>
+                </h1>
+            </div>
+        </header>
+        <div class="menu" style="position: sticky; top: 0; justify-content: center;">
+            <nav class="clearfix">
+                <ul class="clearfix">
+                    <li style="text-align: right;">
+                        <a href="1.html">건축물</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="2.html">음식</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="3.html">문화</a>
+                    </li>
+                    <li style="text-align: right;">
+                        <a href="4.html">축제</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div style="display: flex;">
 
-    <div><div style="text-align:center;"><strong>음식 (Korean Food)</strong></div>
-       <h3><a href="2.html"><button type="button" style="margin: 5px;"><img src="음식.jpg" width="260" alt="음식 (Korean Food)"></button></a></h3>
-   </div>
+            <sidebar class="classy" style="padding-top: 200px; width: 380.6px;">
 
-    <div><div style="text-align:center;"><strong>한국의 문화 (Native culture of Korea)</strong></div>
-       <h3><a href="3.html"><button type="button" style="margin: 5px;"><img src="정서적문화.jpg" width="260" alt="정서적 문화 (Native culture of Korea)"></button></a></h3>
-   </div>
+                <div class="classy1" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="1.html">건축물</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="1-1.html" style="text-decoration: none;">&nbsp;&nbsp;경복궁 (Gyeongbokgung)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-2.html">&nbsp;&nbsp;석굴암 (Seokguram)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-3.html">&nbsp;&nbsp;수원화성 (Suwon Hwaseong)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-4.html">&nbsp;&nbsp;한강 선유도공원 (sunyudo park)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-5.html">&nbsp;&nbsp;롯데월드타워 (Lotte world Tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-6.html">&nbsp;&nbsp;남산서울타워 (namsan seoul tower)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-7.html">&nbsp;&nbsp;인천국제공항 (Incheon Airport)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-8.html">&nbsp;&nbsp;동대문 디자인 플라자 (DDP)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-9.html">&nbsp;&nbsp;63빌딩 (63 Building)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="1-10.html">&nbsp;&nbsp;청와대 (Blue house)</a>
+                        </p>
+                    </div><br>
+                </div>
 
-    <div><div style="text-align:center;"><strong>축제 (Festivals in Korea)</strong></div>
-       <h3><a href="4.html"><button type="button" style="margin: 5px;"><img src="축제.jpg" width="260" alt="축제 (Festivals in Korea)"></button></a></h3>
-   </div>
-</nav><br><br><br>
+                <div class="classy2" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="2.html">음식</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="2-1.html" style="text-decoration: none;">&nbsp;&nbsp;김치 (Kimchi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-2.html">&nbsp;&nbsp;불고기 (bulgogi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-3.html">&nbsp;&nbsp;떡볶이 (Tteokbokki)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-4.html">&nbsp;&nbsp;라면 (Ramen)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-5.html">&nbsp;&nbsp;떡갈비 (tteokgalbi)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-6.html">&nbsp;&nbsp;칼국수 (kalguksu)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-7.html">&nbsp;&nbsp;보쌈 (bossam)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-8.html">&nbsp;&nbsp;족발 (pigtrotters)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-9.html">&nbsp;&nbsp;식혜 (sikhye)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="2-10.html">&nbsp;&nbsp;비빔밥 (bibimbap)</a>
+                        </p>
+                    </div><br>
+                </div>
 
-<h2><P style="text-align:center;">경복궁 (Gyeongbokgung)</P></h2>
+                <div class="classy3" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="3.html">한국의 문화</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="3-1.html" style="text-decoration: none;">&nbsp;&nbsp;한국인의 정 (Korean emotional attachment)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-2.html">&nbsp;&nbsp;빨리빨리 문화 (ppalli ppalli culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-3.html">&nbsp;&nbsp;K-pop</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-4.html">&nbsp;&nbsp;야간자율학습 (self study at school at night)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-5.html">&nbsp;&nbsp;밑반찬 (Side dish)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-6.html">&nbsp;&nbsp;K-입시 (Korea College entrance examination)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-7.html">&nbsp;&nbsp;대중교통 문화 (Public transport culture)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-8.html">&nbsp;&nbsp;한국의 치안 (Korean Safety)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-9.html">&nbsp;&nbsp;한국의 나이 문화 (Age culture in Korea)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="3-10.html">&nbsp;&nbsp;한국의 배달 문화 (Korean delivery culture)</a>
+                        </p>
+                    </div><br>
+                </div>
 
-    </body>
+                <div class="classy4" style="color: gray;">
+                    <strong style="color: black;">&nbsp;&nbsp;<a href="4.html">축제</a>
+                    </strong>
+                    <hr>
+                    <div style="border-width: 376.6px; border-height: 200px;">
+                        <p style="font-size: 11.5px;">
+                            <a href="4-1.html" style="text-decoration: none;">&nbsp;&nbsp;보령 머드 축제 (Boryeong Mud festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-2.html">&nbsp;&nbsp;통영 한산대첩 축제 (The Great Battle of Hansan Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-3.html">&nbsp;&nbsp;대학축제 (University Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-4.html">&nbsp;&nbsp;화천산천어축제 (Mountain Trout Ice Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-5.html">&nbsp;&nbsp;청도 소싸움 축제 (Cheongdo bullfighting festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-6.html">&nbsp;&nbsp;보성 녹차 축제 (Boseong Greentea Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-7.html">&nbsp;&nbsp;강릉단오제 (Gangneong Dano Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-8.html">&nbsp;&nbsp;진도 신비의 바닷길 축제 (Jindo Sea Parting Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-9.html">&nbsp;&nbsp;진주 유등 축제 (Jinju Lantern Festival)</a>
+                        </p>
+                        <p style="font-size: 11.5px;">
+                            <a href="4-10.html">&nbsp;&nbsp;지평선 축제(horizon festival)</a>
+                        </p>
+                    </div><br>
+                </div>
+
+                <div style="padding-bottom: 150px">
+                    <hr>
+                </div>
+
+            </sidebar>
+
+            <main style="width: 100%; padding-top: 100px;">
+                <article>
+                    <h2 style="width: 623px; text-align: right;">
+                        <strong>경복궁 (Gyeongbokgung)</strong>
+                    </h2><br>
+
+                    <div style="display: flex;"><img src="경복궁.jpg.jpg" width="623" height="512">
+
+                    
+                        <table
+                            width="70%"
+                            style="background-color:#fff; width:100%; border:2px solid #315288; width:420px; margin-left: 45px;"
+                            data-dark-style="background-color:#1f2023;">
+                            <tbody>
+                                <tr>
+                                    <td colspan="2" style="text-align:center;">
+                                        <div style="text-align: center;">
+
+                                            <img src="정부상징.jpg" width="21" height="21" style="position: relative; text-align: center;">
+                                            
+                                            <strong>
+                                                <div style="color:#f39100; text-align: center;">대한민국 사적 제117호</div>
+                                            </strong>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <span class="wiki-color" style="color:#fff">
+                                                <span>
+                                                    <strong>경복궁</strong>
+                                                </span><br>
+                                                <span>景福宮 | Gyeongbokgung</span></span></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="background-color: #E2E2E2; text-align:center;">
+                                        <div>
+                                            <div style="margin:-5px -10px">
+                                                <div>
+                                                    <iframe
+                                                        width="95%"
+                                                        height="250px"
+                                                        frameborder="0"
+                                                        src="https://www.google.com/maps/embed/v1/place?q=Gyeongbokgung palace&amp;key=AIzaSyDd96Dx4LJefBN6VMN0c9kxmhNJCzfCA2Y&amp;region=KR"
+                                                        allowfullscreen=""
+                                                        loading="lazy"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; width:90px; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">소재지</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            서울특별시 종로구 사직로 161 (세종로)
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">분류</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>유적건조물 / 정치국방 / 궁궐·관아 / 궁궐</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">면적</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>432,703㎡</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">지정연도</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>1963년 1월 21일</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">축조시기</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            조선시대, 1395년
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color:#315288; text-align:center;">
+                                        <div>
+                                            <strong>
+                                                <span style="color:#fff">링크</span></strong>
+                                        </div>
+                                    </td>
+                                    <td style="text-align:center; background-color: #E2E2E2;">
+                                        <div>
+                                            <a
+                                                style="text-decoration: black;"
+                                                href="http://www.royalpalace.go.kr/"
+                                                target="_blank"
+                                                rel="nofollow noopener"
+                                                title="http://www.royalpalace.go.kr/">공식 홈페이지</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    
+                </div><br><br><br><br><br><br>
+
+                    <h2 style="display: inline;">소개 :
+                    </h2>서울특별시 종로구에 있는 조선시대의 궁궐 중 하나이자 조선의 정궁, 법궁이다. 사적 제117호로 지정되어 있다. 서울특별시 종로구
+                    사직로 161 (세종로) 소재. 태조가 조선을 건국하고 한양 천도를 단행하면서 조선 시대에 가장 먼저 지어진 궁궐이다.<br><br><hr style="border: solid 1px black;"><br><br>
+                    <h2 style="display: inline;">경복궁의 이름 :
+                    </h2>경복궁의 이름을 지은 이는 정도전이다.
+                    <시경>
+                        주아편의 "이미 술에 취하고 이미 덕에 배불렀어라. 임이시여, 만 년 토록 큰 복을 누리소서."(旣醉以酒 旣飽以德 君子萬年 介爾景福)에서 끝의
+                        景福을 딴 것으로 큰 복이라는 뜻을 가지고 있다. 이것은 잔치 끝에 천자에게 바치는 노래였는데, 정도전은 연회 중 대취한 태조가 "경은 이번에
+                        새로 지은 궁궐의 이름을 지어서 우리 왕조가 만 대까지 빛나도록 하라"는 명을 내리자마자 즉석에서 일어나 궁궐의 이름을 경복궁으로 지었다고
+                        한다. 근정전, 사정전, 강녕전, 교태전 등 경복궁의 주요 전각들의 이름도 모두 정도전이 붙였다.<br><br>
+                        다만, 정도전에 대한 평가가 올라가면서 정도전이 경복궁 건축의 실질적 책임자로 알고 있는 경우가 있는데, 사실이 아니다. 정도전이 경복궁에
+                        개입한 것은 위치를 잡는 데 왈가왈부한 것과 건물에 이름 붙인 것뿐이다.<br><br><hr style="border: solid 1px black;"><br><br>
+                        <h2 style="display: inline;">건축자 :
+                        </h2>경복궁 건설을 위해서 신도궁궐조성도감(新都宮闕造成都監)이 설립되었고, 그 책임자로는 조선개국공신이었던 심덕부가 임명되었다.<br><br>하지만
+                            실질적으로 경복궁 건축을 한 인물은 또 따로 있다. 바로 환관 김사행(金師幸)이다. 김사행은 원래 고려인이었지만 원나라 환관으로 차출된다.
+                            그런데 김사행이 원나라 환관으로 있으면서 살던 곳이 원나라 궁궐 수리를 담당했던 관청 전연사(典涓司)였다. 이후 김사행은 노국대장공주가 고려로
+                            오면서 같이 고려 땅을 밟게 되는데, 이후 최고의 건축 전문가로 이름을 알렸으며, 공민왕의 신임을 받아 환관을 총감독하는 판내시부사까지 올랐다.
+                            이후 김사행은 공민왕과 노국대장공주의 능의 건설을 주도했고, 이는 이후 조선왕릉의 기본이 된다. 경복궁 건설에 김사행이 차출된 것은 당연한
+                            일이었다.<br><br><hr style="border: solid 1px black;"><br><br>
+                        <h2 style="display: inline;">구조 및 지리 :
+                        </h2>신진사대부가 계획한 궁궐이기 때문에 '검이불루 화이불치'(검소하되 누추하지 않고 화려하되 사치스럽지 않다.)라는 유교 이념을 반영하여
+                        이전 왕조들의 궁궐에 비해 화려한 장식 없이 수수하고 검소한 형태로 지어졌다. 다만, 현재의 경복궁은 과거의 경복궁과 차이가 있고 이전 국가들의
+                        궁궐도 그 모습이 남아있지 않으며, 실질적 건축 책임자인 김사행이 원 황실 건축에서 배웠고 고려에서는 사원 건축 전문가로 활동했기 때문에 당시
+                        경복궁이 유교 이념을 얼마나 반영해서 지어졌는지는 알 수 없다. 조선시대의 건축은 사원 건축의 영향을 많이 받았다. 조선 왕조의 원찰이었던
+                        회암사는 구조가 경복궁과 상당히 유사하고, 초기에 경복궁에서 사용했다는 청기와도 회암사 터에서 발견된다.
+                        <br><br>임진왜란 전 조선 전기 동안 조선 왕조의 법궁으로 중요한 역할을 담당했다. 경복궁은 법궁으로서의 권위를 나타내기 위해 엄정한
+                            기하학적 공간 분할, 반듯한 축선 상의 건물 배치, 정연한 대칭 구조로 설계되었다. 이궁인 창덕궁(+창경궁)과 양궐 체제를 갖췄는데, 임금들은
+                            각자의 취향에 따라 두 궁궐을 번갈아 가며 사용했다.
+                        <br><br id="scrollbottom">임진왜란 때 소실된 이후 그 자리만 출입이 금지된 채 200여년 동안 재건되지 못하다가 흥선대원군이 재건해 지금까지 전해오고
+                            있다. 참고로 흥선대원군이 지은 경복궁과 임진왜란 당시 소실된 경복궁의 모습은 다소 차이가 있다. 세종이 왕자 시절 2층에서 자다가 병이 났다는
+                            등 다층 건물에 대한 기록이 눈에 띈다. 또한, 근정전에 청기와를 얹었다는 언급 등 차이점이 보이며, 임진왜란 이전에 조선 왕실에서 제작했다는
+                            석가탄생도 등에서 묘사된 건축 양식을 통해 그 당시의 경복궁의 모습을 짐작할 수 있다. 무엇보다 최대 규모 5,000칸까지 서서히 확장되었던
+                            이전 건물과 다르게 흥선대원군은 단숨에 7,400칸짜리로 중건했다. 단숨에 1.5배 크기가 된 것이다.
+                        <br><br>현재의 행정구역으로는 서울특별시 종로구에 위치해 있다. 가장 가까운 지하철역은 경복궁역이며, 5번 출구로 나가면 바로 경복궁의
+                            정문인 광화문 안쪽으로 들어갈 수 있다. 그리고 안국역이나 광화문역에서도 걸어갈 수 있다. 경복궁 앞길에는 각종 관청이 있어 육조 거리라고
+                            불렸으며, 이 길이 오늘날의 세종대로다. 당대에도 국가의 중심 거리였기 때문에 육조 거리는 지금의 세종대로의 폭과 거의 같은 폭으로
+                            조성되었다고 한다. 현재 세종대로 중앙에는 광화문광장이 있다. 주변에는 청와대, 헌법재판소, 정부서울청사, 주한미국대사관, 세종문화회관 등이
+                            있으며, 인사동거리도 경복궁에서 꽤 가깝다.<br><br><hr style="border: solid 1px black;"><br><br>
+                        <h2 style="display: inline;">기타 :
+                        </h2>2018년 2월 7일, 서울역사박물관은 2016년 공개구입 후 보존처리를 완료한 '경복궁도'를 최초 공개했다. 임진왜란으로 소실되기
+                        이전 경복궁내 건물(전각)들의 배치 모습을 그린 족자이다. 임진왜란으로 소실되기 이전의 경복궁의 모습을 엿볼 수 있는 자료로는
+                        경복궁도(국립중앙도서관), 경복궁전도(삼성출판박물관), 경복궁지도(장서각), 조선국왕성지도(일본 와카야마 시립박물관) 등이 있다.
+                        <br><br>경복궁 재건에 기원을 둔 경기 민요인 경복궁타령이 있다. 합창을 위해 편곡된 것도 있다.
+                        <br><br>자금성 내에 경복궁이라는 이름의 전각이 실제로 존재하는데, 한자까지 똑같다. 자금성 내 동북쪽 가장자리에 있다.
+                        <br><br><hr style="border: solid 1px black;"><br><br><br><br><br><br>
+
+                        <!--<h2 style="display: inline;">건축자 : </h2><br><br><hr style="border: solid 1px
+                        black;"><br><br>-->
+
+                    </article>
+                </main>
+
+            </div>
+
+            <div style="position: fixed; bottom: 5px; right: 40px">
+                <a href="#"><img src="위쪽 화살표.png" title="위로 가기" width="30" height="30"></a>
+            </div>
+            <div style="position: fixed; bottom: 5px; right: 5px">
+                <a href="#scrollbottom"><img src="아래쪽 화살표.png" title="아래로 가기" width="30" height="30"></a>
+            </div>
+
+            <footer style="background-color: #333;">
+                <div style="width: 1200px; margin: 0 auto;">
+                    <div class="footer1">
+                        <div id="Introduce_K-culture">
+                            <h2 style="color: white; padding-top: 14px;">&nbsp;&nbsp;K-문화를 소개한다잉</h2>
+                        </div>
+
+                        <p style="color: #b9b9b9;">&nbsp;&nbsp;-여울컴 멘토멘티 프로젝트<br>
+                            &nbsp;&nbsp;-멘토: 도지선, 양채영<br>
+                            &nbsp;&nbsp;-멘티: 배준영<br></p>
+
+                        <a href='5.html'>
+                            <strong style="color: #b9b9b9;">&nbsp;&nbsp;-기타사항</strong>
+                        </a><br><br>
+                    </div>
+
+                    <div class="footerLogo">
+                        <h1>
+                            <a href="https://sites.google.com/view/yeoulcom"><img src="여울컴 영어 로고.png" width="180" alt="여울컴 영어 로고"></a>
+                        </h1>
+                        <address>서울시 강동구 천호대로219길 61<p>
+                                TEL.02-428-0733.<br>
+                                holol0711@naver.com</p>
+                        </address>
+                        <a href="https://www.instagram.com/yeoulcom/" target="_blank"><img src="찐인스타.png" width="25" height="24"></a>
+                        <a href="https://www.facebook.com/YEOULCOM" target="_blank"><img src="찐페이스북.png" width="25" height="24"></a>
+                        <a
+                            href="https://www.youtube.com/channel/UCk01qy1rhiP34tBQjK8Os_w"
+                            target="_blank"><img src="찐유튜브.png" width="25" height="24"></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright (C)2021 Sangil media. All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
 </html>
